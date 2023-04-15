@@ -1,0 +1,15 @@
+LinearModel(
+  (linear): Linear(in_features=1804, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "main.py", line 243, in <module>
+    local= LocalUpdate(idx,lr,device,batch_size=args.batch_size, test_batch_size=args.test_batch_size,dataset_train=dataset['x_train'][idx],dataset_test=dataset['x_test'][idx])
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 34, in __init__
+    clients[idx]=self
+NameError: name 'clients' is not defined
+Traceback (most recent call last):
+  File "main.py", line 243, in <module>
+    local= LocalUpdate(idx,lr,device,batch_size=args.batch_size, test_batch_size=args.test_batch_size,dataset_train=dataset['x_train'][idx],dataset_test=dataset['x_test'][idx])
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 34, in __init__
+    clients[idx]=self
+NameError: name 'clients' is not defined

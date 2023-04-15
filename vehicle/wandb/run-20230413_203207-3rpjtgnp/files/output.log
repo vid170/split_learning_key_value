@@ -1,0 +1,413 @@
+LinearModel(
+  (linear): Linear(in_features=100, out_features=1, bias=True)
+)
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8915
+[92m Client0 Val => 	Loss: 1.0579	Acc: 33.333
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  47.39583315168108
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   0, Avg Accuracy 71.857 | Avg Loss 0.950
+[92mVal:  Round   0, Avg Accuracy 47.396 |  Avg Loss 1.039
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8579
+[92m Client0 Val => 	Loss: 0.9818	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  85.49107142857143
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   1, Avg Accuracy 84.303 | Avg Loss 0.908
+[92mVal:  Round   1, Avg Accuracy 85.491 |  Avg Loss 0.950
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8703
+[92m Client0 Val => 	Loss: 0.8641	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   2, Avg Accuracy 84.411 | Avg Loss 0.902
+[92mVal:  Round   2, Avg Accuracy 81.845 |  Avg Loss 0.906
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 1.0387
+[92m Client0 Val => 	Loss: 0.8588	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   3, Avg Accuracy 83.351 | Avg Loss 0.906
+[92mVal:  Round   3, Avg Accuracy 84.821 |  Avg Loss 0.891
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9556
+[92m Client0 Val => 	Loss: 0.8072	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  86.38392857142857
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   4, Avg Accuracy 83.998 | Avg Loss 0.903
+[92mVal:  Round   4, Avg Accuracy 86.384 |  Avg Loss 0.883
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9086
+[92m Client0 Val => 	Loss: 0.8625	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  86.60714285714286
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   5, Avg Accuracy 85.399 | Avg Loss 0.902
+[92mVal:  Round   5, Avg Accuracy 86.607 |  Avg Loss 0.891
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8796
+[92m Client0 Val => 	Loss: 1.1739	Acc: 33.333
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   6, Avg Accuracy 84.842 | Avg Loss 0.901
+[92mVal:  Round   6, Avg Accuracy 77.307 |  Avg Loss 0.932
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8438
+[92m Client0 Val => 	Loss: 1.0510	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   7, Avg Accuracy 85.435 | Avg Loss 0.900
+[92mVal:  Round   7, Avg Accuracy 82.292 |  Avg Loss 0.915
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9421
+[92m Client0 Val => 	Loss: 0.8192	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   8, Avg Accuracy 83.693 | Avg Loss 0.903
+[92mVal:  Round   8, Avg Accuracy 80.506 |  Avg Loss 0.880
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8359
+[92m Client0 Val => 	Loss: 0.7224	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   9, Avg Accuracy 82.812 | Avg Loss 0.900
+[92mVal:  Round   9, Avg Accuracy 85.045 |  Avg Loss 0.870
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9038
+[92m Client0 Val => 	Loss: 0.8788	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  10, Avg Accuracy 85.381 | Avg Loss 0.902
+[92mVal:  Round  10, Avg Accuracy 83.854 |  Avg Loss 0.888
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8881
+[92m Client0 Val => 	Loss: 1.0661	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  11, Avg Accuracy 85.004 | Avg Loss 0.901
+[92mVal:  Round  11, Avg Accuracy 86.607 |  Avg Loss 0.916
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9979
+[92m Client0 Val => 	Loss: 0.6390	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  88.61607142857143
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  12, Avg Accuracy 85.902 | Avg Loss 0.904
+[92mVal:  Round  12, Avg Accuracy 88.616 |  Avg Loss 0.854
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8645
+[92m Client0 Val => 	Loss: 0.8370	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  13, Avg Accuracy 85.237 | Avg Loss 0.900
+[92mVal:  Round  13, Avg Accuracy 86.830 |  Avg Loss 0.887
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9440
+[92m Client0 Val => 	Loss: 0.7589	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  14, Avg Accuracy 83.351 | Avg Loss 0.903
+[92mVal:  Round  14, Avg Accuracy 84.821 |  Avg Loss 0.873
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8770
+[92m Client0 Val => 	Loss: 0.8140	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  15, Avg Accuracy 84.357 | Avg Loss 0.901
+[92mVal:  Round  15, Avg Accuracy 86.607 |  Avg Loss 0.881
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8664
+[92m Client0 Val => 	Loss: 0.8955	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  16, Avg Accuracy 85.165 | Avg Loss 0.900
+[92mVal:  Round  16, Avg Accuracy 87.054 |  Avg Loss 0.892
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8867
+[92m Client0 Val => 	Loss: 0.7879	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  17, Avg Accuracy 83.279 | Avg Loss 0.901
+[92mVal:  Round  17, Avg Accuracy 85.045 |  Avg Loss 0.877
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8894
+[92m Client0 Val => 	Loss: 0.7849	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  18, Avg Accuracy 83.782 | Avg Loss 0.901
+[92mVal:  Round  18, Avg Accuracy 86.161 |  Avg Loss 0.877
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7437
+[92m Client0 Val => 	Loss: 1.0767	Acc: 33.333
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  19, Avg Accuracy 85.560 | Avg Loss 0.897
+[92mVal:  Round  19, Avg Accuracy 77.753 |  Avg Loss 0.920
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8849
+[92m Client0 Val => 	Loss: 1.0719	Acc: 33.333
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  20, Avg Accuracy 83.226 | Avg Loss 0.901
+[92mVal:  Round  20, Avg Accuracy 75.521 |  Avg Loss 0.914
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8822
+[92m Client0 Val => 	Loss: 1.0809	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  21, Avg Accuracy 83.549 | Avg Loss 0.901
+[92mVal:  Round  21, Avg Accuracy 80.506 |  Avg Loss 0.916
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9608
+[92m Client0 Val => 	Loss: 0.9648	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  22, Avg Accuracy 84.806 | Avg Loss 0.903
+[92mVal:  Round  22, Avg Accuracy 81.622 |  Avg Loss 0.900
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8479
+[92m Client0 Val => 	Loss: 0.7791	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  23, Avg Accuracy 85.111 | Avg Loss 0.900
+[92mVal:  Round  23, Avg Accuracy 86.830 |  Avg Loss 0.877
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9475
+[92m Client0 Val => 	Loss: 1.0274	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  24, Avg Accuracy 84.465 | Avg Loss 0.903
+[92mVal:  Round  24, Avg Accuracy 81.399 |  Avg Loss 0.909
+[91m Client0 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 1.0332
+[92m Client0 Val => 	Loss: 0.8154	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  25, Avg Accuracy 83.567 | Avg Loss 0.905
+[92mVal:  Round  25, Avg Accuracy 87.277 |  Avg Loss 0.878
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9274
+[92m Client0 Val => 	Loss: 0.9474	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  26, Avg Accuracy 84.608 | Avg Loss 0.902
+[92mVal:  Round  26, Avg Accuracy 81.176 |  Avg Loss 0.901
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8731
+[92m Client0 Val => 	Loss: 0.8693	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  27, Avg Accuracy 84.914 | Avg Loss 0.901
+[92mVal:  Round  27, Avg Accuracy 86.830 |  Avg Loss 0.889
+[91m Client0 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 1.0010
+[92m Client0 Val => 	Loss: 0.8854	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  28, Avg Accuracy 84.195 | Avg Loss 0.905
+[92mVal:  Round  28, Avg Accuracy 86.161 |  Avg Loss 0.888
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8211
+[92m Client0 Val => 	Loss: 0.8133	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  29, Avg Accuracy 85.938 | Avg Loss 0.899
+[92mVal:  Round  29, Avg Accuracy 88.616 |  Avg Loss 0.885
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9144
+[92m Client0 Val => 	Loss: 0.7472	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  30, Avg Accuracy 84.680 | Avg Loss 0.902
+[92mVal:  Round  30, Avg Accuracy 86.161 |  Avg Loss 0.870
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9235
+[92m Client0 Val => 	Loss: 0.7913	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  31, Avg Accuracy 84.968 | Avg Loss 0.902
+[92mVal:  Round  31, Avg Accuracy 87.723 |  Avg Loss 0.877
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8679
+[92m Client0 Val => 	Loss: 0.9936	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  89.0625
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  32, Avg Accuracy 84.986 | Avg Loss 0.901
+[92mVal:  Round  32, Avg Accuracy 89.062 |  Avg Loss 0.905
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8632
+[92m Client0 Val => 	Loss: 1.1175	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  33, Avg Accuracy 85.273 | Avg Loss 0.900
+[92mVal:  Round  33, Avg Accuracy 82.515 |  Avg Loss 0.922
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8780
+[92m Client0 Val => 	Loss: 0.7793	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  34, Avg Accuracy 84.465 | Avg Loss 0.901
+[92mVal:  Round  34, Avg Accuracy 85.938 |  Avg Loss 0.876
+[91m Client0 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.9236
+[92m Client0 Val => 	Loss: 0.7916	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  35, Avg Accuracy 84.249 | Avg Loss 0.902
+[92mVal:  Round  35, Avg Accuracy 86.161 |  Avg Loss 0.876
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8215
+[92m Client0 Val => 	Loss: 0.8664	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  36, Avg Accuracy 84.770 | Avg Loss 0.899
+[92mVal:  Round  36, Avg Accuracy 81.845 |  Avg Loss 0.890
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8631
+[92m Client0 Val => 	Loss: 0.7967	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  37, Avg Accuracy 84.231 | Avg Loss 0.900
+[92mVal:  Round  37, Avg Accuracy 86.384 |  Avg Loss 0.879
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8183
+[92m Client0 Val => 	Loss: 0.8871	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  89.28571428571429
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  38, Avg Accuracy 85.596 | Avg Loss 0.899
+[92mVal:  Round  38, Avg Accuracy 89.286 |  Avg Loss 0.891
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8714
+[92m Client0 Val => 	Loss: 0.7826	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  39, Avg Accuracy 83.549 | Avg Loss 0.900
+[92mVal:  Round  39, Avg Accuracy 85.491 |  Avg Loss 0.876
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8899
+[92m Client0 Val => 	Loss: 1.1170	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  40, Avg Accuracy 85.866 | Avg Loss 0.901
+[92mVal:  Round  40, Avg Accuracy 84.301 |  Avg Loss 0.921
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9239
+[92m Client0 Val => 	Loss: 1.0626	Acc: 33.333
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  41, Avg Accuracy 84.501 | Avg Loss 0.902
+[92mVal:  Round  41, Avg Accuracy 77.753 |  Avg Loss 0.914
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9533
+[92m Client0 Val => 	Loss: 0.9061	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  42, Avg Accuracy 84.698 | Avg Loss 0.903
+[92mVal:  Round  42, Avg Accuracy 87.500 |  Avg Loss 0.891
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9137
+[92m Client0 Val => 	Loss: 0.9394	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  43, Avg Accuracy 84.698 | Avg Loss 0.902
+[92mVal:  Round  43, Avg Accuracy 87.054 |  Avg Loss 0.900
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8373
+[92m Client0 Val => 	Loss: 0.6964	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  44, Avg Accuracy 85.093 | Avg Loss 0.900
+[92mVal:  Round  44, Avg Accuracy 87.946 |  Avg Loss 0.865
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8885
+[92m Client0 Val => 	Loss: 1.0298	Acc: 33.333
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  45, Avg Accuracy 84.824 | Avg Loss 0.901
+[92mVal:  Round  45, Avg Accuracy 79.762 |  Avg Loss 0.909
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9225
+[92m Client0 Val => 	Loss: 0.8602	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  46, Avg Accuracy 85.165 | Avg Loss 0.902
+[92mVal:  Round  46, Avg Accuracy 85.938 |  Avg Loss 0.886
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8748
+[92m Client0 Val => 	Loss: 1.1669	Acc: 66.667
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  47, Avg Accuracy 84.519 | Avg Loss 0.901
+[92mVal:  Round  47, Avg Accuracy 80.506 |  Avg Loss 0.931
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8949
+[92m Client0 Val => 	Loss: 0.6125	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  48, Avg Accuracy 81.430 | Avg Loss 0.902
+[92mVal:  Round  48, Avg Accuracy 82.143 |  Avg Loss 0.855
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8687
+[92m Client0 Val => 	Loss: 0.7583	Acc: 100.000
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  49, Avg Accuracy 84.752 | Avg Loss 0.901
+[92mVal:  Round  49, Avg Accuracy 86.161 |  Avg Loss 0.873
+[92mTraining and Evaluation completed!
+[92mTotal time taken is 0.038807539145151775 mins
+[92mMax validation accuracy of unique client is:  89.28571428571429

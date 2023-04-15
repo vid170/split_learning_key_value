@@ -1,0 +1,38 @@
+2023-04-09 01:55:24,741 INFO    MainThread:1187383 [wandb_setup.py:_flush():68] Configure stats pid to 1187383
+2023-04-09 01:55:24,741 INFO    MainThread:1187383 [wandb_setup.py:_flush():68] Loading settings from /home/prarabdh/.config/wandb/settings
+2023-04-09 01:55:24,741 INFO    MainThread:1187383 [wandb_setup.py:_flush():68] Loading settings from /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/settings
+2023-04-09 01:55:24,741 INFO    MainThread:1187383 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'vehicle/main.py', 'program': 'main.py'}
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_init.py:_log_setup():476] Logging user logs to /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_015524-2mwg14aa/logs/debug.log
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_init.py:_log_setup():477] Logging internal logs to /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_015524-2mwg14aa/logs/debug-internal.log
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_init.py:init():516] calling init triggers
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_init.py:init():569] starting backend
+2023-04-09 01:55:24,742 INFO    MainThread:1187383 [wandb_init.py:init():573] setting up manager
+2023-04-09 01:55:24,747 INFO    MainThread:1187383 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-09 01:55:24,751 INFO    MainThread:1187383 [wandb_init.py:init():580] backend started and connected
+2023-04-09 01:55:24,755 INFO    MainThread:1187383 [wandb_init.py:init():658] updated telemetry
+2023-04-09 01:55:24,778 INFO    MainThread:1187383 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-04-09 01:55:25,856 INFO    MainThread:1187383 [wandb_run.py:_on_init():2000] communicating current version
+2023-04-09 01:55:26,103 INFO    MainThread:1187383 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.14.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-09 01:55:26,103 INFO    MainThread:1187383 [wandb_init.py:init():728] starting run threads in backend
+2023-04-09 01:55:26,845 INFO    MainThread:1187383 [wandb_run.py:_console_start():1980] atexit reg
+2023-04-09 01:55:26,846 INFO    MainThread:1187383 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-04-09 01:55:26,846 INFO    MainThread:1187383 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-04-09 01:55:26,846 INFO    MainThread:1187383 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-04-09 01:55:26,846 INFO    MainThread:1187383 [wandb_init.py:init():765] run started, returning control to user process
+2023-04-09 01:55:26,847 INFO    MainThread:1187383 [wandb_config.py:__setitem__():148] config set batch_size = 1024 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f4df4b8f070>>
+2023-04-09 01:55:26,847 INFO    MainThread:1187383 [wandb_run.py:_config_callback():1160] config_cb batch_size 1024 None
+2023-04-09 01:55:26,847 INFO    MainThread:1187383 [wandb_config.py:__setitem__():148] config set test_batch_size = 512 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f4df4b8f070>>
+2023-04-09 01:55:26,847 INFO    MainThread:1187383 [wandb_run.py:_config_callback():1160] config_cb test_batch_size 512 None
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_config.py:__setitem__():148] config set epochs = 20 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f4df4b8f070>>
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_run.py:_config_callback():1160] config_cb epochs 20 None
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_config.py:__setitem__():148] config set lr = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f4df4b8f070>>
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_run.py:_config_callback():1160] config_cb lr 0.001 None
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_config.py:__setitem__():148] config set seed = 1234 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f4df4b8f070>>
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_run.py:_config_callback():1160] config_cb seed 1234 None
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_config.py:__setitem__():148] config set opt =  - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f4df4b8f070>>
+2023-04-09 01:55:26,848 INFO    MainThread:1187383 [wandb_run.py:_config_callback():1160] config_cb opt  None
+2023-04-09 01:55:35,368 WARNING MsgRouterThr:1187383 [router.py:message_loop():77] message_loop has been closed

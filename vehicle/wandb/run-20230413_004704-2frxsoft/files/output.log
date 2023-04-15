@@ -1,0 +1,2615 @@
+LinearModel(
+  (linear): Linear(in_features=100, out_features=1, bias=True)
+)
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9142
+[92m Client0 Val => 	Loss: 1.0544	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9402
+[92m Client1 Val => 	Loss: 1.0124	Acc: 51.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9452
+[92m Client2 Val => 	Loss: 0.9968	Acc: 63.889
+[91m Client3 Train => Local Epoch: 0 	Acc: 54.054 	Loss: 0.9495
+[92m Client3 Val => 	Loss: 1.0250	Acc: 40.909
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8826
+[92m Client4 Val => 	Loss: 1.0210	Acc: 46.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 97.826 	Loss: 0.8710
+[92m Client5 Val => 	Loss: 1.0197	Acc: 55.319
+[91m Client6 Train => Local Epoch: 0 	Acc: 56.000 	Loss: 0.9668
+[92m Client6 Val => 	Loss: 1.0151	Acc: 54.098
+[91m Client7 Train => Local Epoch: 0 	Acc: 62.295 	Loss: 0.9601
+[92m Client7 Val => 	Loss: 0.9851	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9516
+[92m Client8 Val => 	Loss: 1.0153	Acc: 52.273
+[91m Client9 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9425
+[92m Client9 Val => 	Loss: 1.0095	Acc: 56.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9561
+[92m Client10 Val => 	Loss: 1.0001	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 57.778 	Loss: 0.9345
+[92m Client11 Val => 	Loss: 0.9948	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 43.478 	Loss: 1.0069
+[92m Client12 Val => 	Loss: 1.0219	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8943
+[92m Client13 Val => 	Loss: 1.0285	Acc: 50.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 92.308 	Loss: 0.8534
+[92m Client14 Val => 	Loss: 1.0310	Acc: 46.154
+[91m Client15 Train => Local Epoch: 0 	Acc: 72.881 	Loss: 0.9651
+[92m Client15 Val => 	Loss: 1.0080	Acc: 56.250
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9048
+[92m Client16 Val => 	Loss: 1.0234	Acc: 49.091
+[91m Client17 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9453
+[92m Client17 Val => 	Loss: 1.0210	Acc: 51.282
+[91m Client18 Train => Local Epoch: 0 	Acc: 56.250 	Loss: 0.9530
+[92m Client18 Val => 	Loss: 1.0081	Acc: 62.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9389
+[92m Client19 Val => 	Loss: 1.0232	Acc: 46.667
+[91m Client20 Train => Local Epoch: 0 	Acc: 63.158 	Loss: 0.9639
+[92m Client20 Val => 	Loss: 1.0268	Acc: 47.273
+[91m Client21 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9185
+[92m Client21 Val => 	Loss: 1.0346	Acc: 43.750
+[91m Client22 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9357
+[92m Client22 Val => 	Loss: 1.0058	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  52.654165677451694
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   0, Avg Accuracy 61.951 | Avg Loss 0.963
+[92mVal:  Round   0, Avg Accuracy 52.654 |  Avg Loss 1.018
+[91m Client0 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.8913
+[92m Client0 Val => 	Loss: 0.9557	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 84.848 	Loss: 0.9034
+[92m Client1 Val => 	Loss: 0.9345	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 87.179 	Loss: 0.9413
+[92m Client2 Val => 	Loss: 0.9608	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9116
+[92m Client3 Val => 	Loss: 0.9489	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8399
+[92m Client4 Val => 	Loss: 0.9590	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 97.826 	Loss: 0.9065
+[92m Client5 Val => 	Loss: 1.0775	Acc: 2.128
+[91m Client6 Train => Local Epoch: 0 	Acc: 92.000 	Loss: 0.8712
+[92m Client6 Val => 	Loss: 0.9944	Acc: 70.492
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.9313
+[92m Client7 Val => 	Loss: 0.9924	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9508
+[92m Client8 Val => 	Loss: 0.9594	Acc: 59.091
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9065
+[92m Client9 Val => 	Loss: 0.9674	Acc: 65.625
+[91m Client10 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9256
+[92m Client10 Val => 	Loss: 0.9888	Acc: 53.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.8946
+[92m Client11 Val => 	Loss: 1.0375	Acc: 46.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 69.565 	Loss: 0.8344
+[92m Client12 Val => 	Loss: 0.9704	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8187
+[92m Client13 Val => 	Loss: 0.9629	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9460
+[92m Client14 Val => 	Loss: 0.9554	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9473
+[92m Client15 Val => 	Loss: 0.9936	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9075
+[92m Client16 Val => 	Loss: 0.9848	Acc: 67.273
+[91m Client17 Train => Local Epoch: 0 	Acc: 96.429 	Loss: 0.8974
+[92m Client17 Val => 	Loss: 0.9961	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 79.688 	Loss: 0.8965
+[92m Client18 Val => 	Loss: 0.9832	Acc: 62.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 0.9646
+[92m Client19 Val => 	Loss: 0.9805	Acc: 62.222
+[91m Client20 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9143
+[92m Client20 Val => 	Loss: 0.9932	Acc: 61.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9412
+[92m Client21 Val => 	Loss: 0.9954	Acc: 56.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.9523
+[92m Client22 Val => 	Loss: 0.9683	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  62.3951628502358
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   1, Avg Accuracy 69.696 | Avg Loss 0.938
+[92mVal:  Round   1, Avg Accuracy 62.395 |  Avg Loss 0.981
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9041
+[92m Client0 Val => 	Loss: 1.0444	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 72.727 	Loss: 0.9464
+[92m Client1 Val => 	Loss: 0.9497	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 92.308 	Loss: 0.8875
+[92m Client2 Val => 	Loss: 0.9266	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9276
+[92m Client3 Val => 	Loss: 1.0029	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.5874
+[92m Client4 Val => 	Loss: 0.9538	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 95.652 	Loss: 0.9184
+[92m Client5 Val => 	Loss: 1.1004	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 76.000 	Loss: 0.9080
+[92m Client6 Val => 	Loss: 0.9710	Acc: 72.131
+[91m Client7 Train => Local Epoch: 0 	Acc: 80.328 	Loss: 0.9169
+[92m Client7 Val => 	Loss: 0.9696	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 76.786 	Loss: 0.9617
+[92m Client8 Val => 	Loss: 0.9835	Acc: 47.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9255
+[92m Client9 Val => 	Loss: 0.9645	Acc: 68.750
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9131
+[92m Client10 Val => 	Loss: 0.9341	Acc: 53.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.8389
+[92m Client11 Val => 	Loss: 0.9503	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 82.609 	Loss: 0.7496
+[92m Client12 Val => 	Loss: 0.9763	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8474
+[92m Client13 Val => 	Loss: 0.8922	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 0.8886
+[92m Client14 Val => 	Loss: 0.9151	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 74.576 	Loss: 0.9213
+[92m Client15 Val => 	Loss: 0.9913	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9424
+[92m Client16 Val => 	Loss: 0.9396	Acc: 85.455
+[91m Client17 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9321
+[92m Client17 Val => 	Loss: 0.9504	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9095
+[92m Client18 Val => 	Loss: 0.9770	Acc: 58.333
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9430
+[92m Client19 Val => 	Loss: 0.9677	Acc: 60.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 71.053 	Loss: 0.9383
+[92m Client20 Val => 	Loss: 0.9544	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9121
+[92m Client21 Val => 	Loss: 0.9868	Acc: 60.417
+[91m Client22 Train => Local Epoch: 0 	Acc: 81.667 	Loss: 0.9459
+[92m Client22 Val => 	Loss: 0.9296	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  66.45155587759076
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   2, Avg Accuracy 71.118 | Avg Loss 0.931
+[92mVal:  Round   2, Avg Accuracy 66.452 |  Avg Loss 0.964
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9200
+[92m Client0 Val => 	Loss: 0.8165	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9530
+[92m Client1 Val => 	Loss: 0.9104	Acc: 77.143
+[91m Client2 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9497
+[92m Client2 Val => 	Loss: 0.9311	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 59.459 	Loss: 0.9715
+[92m Client3 Val => 	Loss: 1.0083	Acc: 50.000
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0033
+[92m Client4 Val => 	Loss: 0.9976	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9420
+[92m Client5 Val => 	Loss: 1.1335	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.9316
+[92m Client6 Val => 	Loss: 0.9479	Acc: 86.885
+[91m Client7 Train => Local Epoch: 0 	Acc: 73.770 	Loss: 0.9203
+[92m Client7 Val => 	Loss: 0.9217	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9732
+[92m Client8 Val => 	Loss: 0.9602	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.8804
+[92m Client9 Val => 	Loss: 0.9256	Acc: 78.125
+[91m Client10 Train => Local Epoch: 0 	Acc: 57.778 	Loss: 0.9404
+[92m Client10 Val => 	Loss: 0.9423	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9898
+[92m Client11 Val => 	Loss: 0.9499	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 78.261 	Loss: 0.7830
+[92m Client12 Val => 	Loss: 0.9503	Acc: 73.684
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7655
+[92m Client13 Val => 	Loss: 0.9937	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8767
+[92m Client14 Val => 	Loss: 0.9497	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 62.712 	Loss: 0.9746
+[92m Client15 Val => 	Loss: 0.9503	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9156
+[92m Client16 Val => 	Loss: 0.9585	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 0.9169
+[92m Client17 Val => 	Loss: 0.9402	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 79.688 	Loss: 0.8920
+[92m Client18 Val => 	Loss: 0.9329	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9420
+[92m Client19 Val => 	Loss: 0.9479	Acc: 66.667
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9018
+[92m Client20 Val => 	Loss: 0.9434	Acc: 83.636
+[91m Client21 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9084
+[92m Client21 Val => 	Loss: 0.9139	Acc: 85.417
+[91m Client22 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9319
+[92m Client22 Val => 	Loss: 0.9345	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  68.45337248776517
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   3, Avg Accuracy 72.402 | Avg Loss 0.931
+[92mVal:  Round   3, Avg Accuracy 68.453 |  Avg Loss 0.955
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9230
+[92m Client0 Val => 	Loss: 1.2994	Acc: 0.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 81.818 	Loss: 0.9430
+[92m Client1 Val => 	Loss: 0.9154	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9780
+[92m Client2 Val => 	Loss: 0.9118	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9181
+[92m Client3 Val => 	Loss: 1.0187	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.1375
+[92m Client4 Val => 	Loss: 0.9350	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9304
+[92m Client5 Val => 	Loss: 1.1527	Acc: 4.255
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.9056
+[92m Client6 Val => 	Loss: 0.9315	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.9123
+[92m Client7 Val => 	Loss: 0.8785	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9445
+[92m Client8 Val => 	Loss: 0.9430	Acc: 65.909
+[91m Client9 Train => Local Epoch: 0 	Acc: 62.162 	Loss: 0.9895
+[92m Client9 Val => 	Loss: 0.9343	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.9122
+[92m Client10 Val => 	Loss: 0.9523	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9800
+[92m Client11 Val => 	Loss: 0.9612	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 73.913 	Loss: 0.8277
+[92m Client12 Val => 	Loss: 0.9641	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9184
+[92m Client13 Val => 	Loss: 0.8458	Acc: 100.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 53.846 	Loss: 0.9879
+[92m Client14 Val => 	Loss: 0.9505	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 66.102 	Loss: 0.9535
+[92m Client15 Val => 	Loss: 0.9699	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9517
+[92m Client16 Val => 	Loss: 0.9220	Acc: 89.091
+[91m Client17 Train => Local Epoch: 0 	Acc: 92.857 	Loss: 0.9030
+[92m Client17 Val => 	Loss: 0.9074	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 67.188 	Loss: 0.9452
+[92m Client18 Val => 	Loss: 0.9246	Acc: 87.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.8905
+[92m Client19 Val => 	Loss: 0.9130	Acc: 80.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8873
+[92m Client20 Val => 	Loss: 0.9403	Acc: 89.091
+[91m Client21 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9607
+[92m Client21 Val => 	Loss: 0.9464	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.9416
+[92m Client22 Val => 	Loss: 0.9295	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  69.01918860390074
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   4, Avg Accuracy 72.410 | Avg Loss 0.932
+[92mVal:  Round   4, Avg Accuracy 69.019 |  Avg Loss 0.952
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8962
+[92m Client0 Val => 	Loss: 1.2108	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 84.848 	Loss: 0.8840
+[92m Client1 Val => 	Loss: 0.9673	Acc: 60.000
+[91m Client2 Train => Local Epoch: 0 	Acc: 64.103 	Loss: 0.9713
+[92m Client2 Val => 	Loss: 0.9098	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9234
+[92m Client3 Val => 	Loss: 0.9697	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.2604
+[92m Client4 Val => 	Loss: 1.0248	Acc: 40.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9500
+[92m Client5 Val => 	Loss: 1.1241	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 68.000 	Loss: 0.9521
+[92m Client6 Val => 	Loss: 0.9364	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 77.049 	Loss: 0.9231
+[92m Client7 Val => 	Loss: 0.9356	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.9101
+[92m Client8 Val => 	Loss: 0.9353	Acc: 59.091
+[91m Client9 Train => Local Epoch: 0 	Acc: 56.757 	Loss: 0.9933
+[92m Client9 Val => 	Loss: 0.9135	Acc: 78.125
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9041
+[92m Client10 Val => 	Loss: 0.9663	Acc: 60.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9044
+[92m Client11 Val => 	Loss: 0.9940	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9106
+[92m Client12 Val => 	Loss: 0.9460	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8720
+[92m Client13 Val => 	Loss: 0.9287	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9212
+[92m Client14 Val => 	Loss: 0.9334	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9308
+[92m Client15 Val => 	Loss: 0.9106	Acc: 71.875
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9362
+[92m Client16 Val => 	Loss: 0.9506	Acc: 74.545
+[91m Client17 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9124
+[92m Client17 Val => 	Loss: 0.9735	Acc: 61.538
+[91m Client18 Train => Local Epoch: 0 	Acc: 62.500 	Loss: 0.9539
+[92m Client18 Val => 	Loss: 0.9567	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.8944
+[92m Client19 Val => 	Loss: 0.9153	Acc: 77.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.8958
+[92m Client20 Val => 	Loss: 0.9324	Acc: 78.182
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.9452
+[92m Client21 Val => 	Loss: 0.9363	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 76.667 	Loss: 0.9396
+[92m Client22 Val => 	Loss: 0.9098	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  69.52349792622633
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   5, Avg Accuracy 72.680 | Avg Loss 0.932
+[92mVal:  Round   5, Avg Accuracy 69.523 |  Avg Loss 0.951
+[91m Client0 Train => Local Epoch: 0 	Acc: 58.333 	Loss: 0.9841
+[92m Client0 Val => 	Loss: 0.9661	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.9507
+[92m Client1 Val => 	Loss: 0.9435	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8785
+[92m Client2 Val => 	Loss: 0.9369	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9108
+[92m Client3 Val => 	Loss: 0.9729	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.0685
+[92m Client4 Val => 	Loss: 0.9477	Acc: 86.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 89.130 	Loss: 0.9577
+[92m Client5 Val => 	Loss: 1.1305	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9515
+[92m Client6 Val => 	Loss: 0.9333	Acc: 81.967
+[91m Client7 Train => Local Epoch: 0 	Acc: 73.770 	Loss: 0.9024
+[92m Client7 Val => 	Loss: 0.8635	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9523
+[92m Client8 Val => 	Loss: 0.9092	Acc: 68.182
+[91m Client9 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.8783
+[92m Client9 Val => 	Loss: 0.9254	Acc: 73.438
+[91m Client10 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8944
+[92m Client10 Val => 	Loss: 1.0128	Acc: 60.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8410
+[92m Client11 Val => 	Loss: 0.8341	Acc: 86.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 69.565 	Loss: 0.8536
+[92m Client12 Val => 	Loss: 0.9368	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7827
+[92m Client13 Val => 	Loss: 0.9906	Acc: 50.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 46.154 	Loss: 0.9554
+[92m Client14 Val => 	Loss: 0.8555	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9219
+[92m Client15 Val => 	Loss: 0.9720	Acc: 56.250
+[91m Client16 Train => Local Epoch: 0 	Acc: 71.053 	Loss: 0.9591
+[92m Client16 Val => 	Loss: 0.9313	Acc: 80.000
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8829
+[92m Client17 Val => 	Loss: 0.9544	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 78.125 	Loss: 0.8836
+[92m Client18 Val => 	Loss: 0.9566	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9103
+[92m Client19 Val => 	Loss: 0.8955	Acc: 75.556
+[91m Client20 Train => Local Epoch: 0 	Acc: 65.789 	Loss: 0.9332
+[92m Client20 Val => 	Loss: 0.9594	Acc: 74.545
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9077
+[92m Client21 Val => 	Loss: 0.9480	Acc: 75.000
+[91m Client22 Train => Local Epoch: 0 	Acc: 76.667 	Loss: 0.9591
+[92m Client22 Val => 	Loss: 0.9623	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  70.43895128656865
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   6, Avg Accuracy 73.405 | Avg Loss 0.931
+[92mVal:  Round   6, Avg Accuracy 70.439 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8918
+[92m Client0 Val => 	Loss: 0.9908	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 84.848 	Loss: 0.9161
+[92m Client1 Val => 	Loss: 1.0180	Acc: 51.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9466
+[92m Client2 Val => 	Loss: 0.9761	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9278
+[92m Client3 Val => 	Loss: 0.9296	Acc: 77.273
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8129
+[92m Client4 Val => 	Loss: 0.9673	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9468
+[92m Client5 Val => 	Loss: 1.1377	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.9317
+[92m Client6 Val => 	Loss: 0.9430	Acc: 83.607
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.9351
+[92m Client7 Val => 	Loss: 0.9442	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9320
+[92m Client8 Val => 	Loss: 0.9461	Acc: 59.091
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9743
+[92m Client9 Val => 	Loss: 0.9271	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9271
+[92m Client10 Val => 	Loss: 0.9220	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 57.778 	Loss: 0.9668
+[92m Client11 Val => 	Loss: 0.8607	Acc: 86.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8779
+[92m Client12 Val => 	Loss: 0.8923	Acc: 76.316
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9004
+[92m Client13 Val => 	Loss: 0.9762	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 0.9574
+[92m Client14 Val => 	Loss: 0.9455	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 79.661 	Loss: 0.9062
+[92m Client15 Val => 	Loss: 0.9713	Acc: 56.250
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9020
+[92m Client16 Val => 	Loss: 0.9131	Acc: 83.636
+[91m Client17 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 0.9676
+[92m Client17 Val => 	Loss: 0.9228	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 70.312 	Loss: 0.9328
+[92m Client18 Val => 	Loss: 0.8887	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9305
+[92m Client19 Val => 	Loss: 0.9626	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.8784
+[92m Client20 Val => 	Loss: 0.9269	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.9285
+[92m Client21 Val => 	Loss: 0.9588	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9317
+[92m Client22 Val => 	Loss: 0.9709	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   7, Avg Accuracy 73.309 | Avg Loss 0.931
+[92mVal:  Round   7, Avg Accuracy 70.139 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9290
+[92m Client0 Val => 	Loss: 0.9071	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.9494
+[92m Client1 Val => 	Loss: 0.9449	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9125
+[92m Client2 Val => 	Loss: 0.9070	Acc: 72.222
+[91m Client3 Train => Local Epoch: 0 	Acc: 62.162 	Loss: 0.9755
+[92m Client3 Val => 	Loss: 0.9963	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.6374
+[92m Client4 Val => 	Loss: 0.9015	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9536
+[92m Client5 Val => 	Loss: 1.1332	Acc: 14.894
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.8735
+[92m Client6 Val => 	Loss: 0.9726	Acc: 72.131
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.9254
+[92m Client7 Val => 	Loss: 0.7680	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9508
+[92m Client8 Val => 	Loss: 0.9624	Acc: 52.273
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9604
+[92m Client9 Val => 	Loss: 0.9125	Acc: 73.438
+[91m Client10 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9663
+[92m Client10 Val => 	Loss: 0.9722	Acc: 60.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9403
+[92m Client11 Val => 	Loss: 0.9036	Acc: 80.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 73.913 	Loss: 0.7731
+[92m Client12 Val => 	Loss: 0.9103	Acc: 78.947
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8404
+[92m Client13 Val => 	Loss: 0.8657	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 53.846 	Loss: 1.0331
+[92m Client14 Val => 	Loss: 0.9425	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9350
+[92m Client15 Val => 	Loss: 0.9825	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8916
+[92m Client16 Val => 	Loss: 0.9486	Acc: 74.545
+[91m Client17 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9484
+[92m Client17 Val => 	Loss: 0.9525	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9271
+[92m Client18 Val => 	Loss: 0.9608	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9222
+[92m Client19 Val => 	Loss: 0.9710	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 92.105 	Loss: 0.8838
+[92m Client20 Val => 	Loss: 0.9471	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9286
+[92m Client21 Val => 	Loss: 0.9491	Acc: 68.750
+[91m Client22 Train => Local Epoch: 0 	Acc: 78.333 	Loss: 0.9230
+[92m Client22 Val => 	Loss: 0.9693	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   8, Avg Accuracy 72.821 | Avg Loss 0.930
+[92mVal:  Round   8, Avg Accuracy 69.751 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9878
+[92m Client0 Val => 	Loss: 1.1025	Acc: 0.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9581
+[92m Client1 Val => 	Loss: 0.9669	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9282
+[92m Client2 Val => 	Loss: 0.9549	Acc: 66.667
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9626
+[92m Client3 Val => 	Loss: 0.9169	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.6967
+[92m Client4 Val => 	Loss: 0.9507	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9470
+[92m Client5 Val => 	Loss: 1.1667	Acc: 6.383
+[91m Client6 Train => Local Epoch: 0 	Acc: 76.000 	Loss: 0.9460
+[92m Client6 Val => 	Loss: 0.9321	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 68.852 	Loss: 0.9647
+[92m Client7 Val => 	Loss: 0.8596	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 92.857 	Loss: 0.9191
+[92m Client8 Val => 	Loss: 0.9257	Acc: 68.182
+[91m Client9 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.8853
+[92m Client9 Val => 	Loss: 0.9181	Acc: 79.688
+[91m Client10 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8746
+[92m Client10 Val => 	Loss: 0.8707	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9625
+[92m Client11 Val => 	Loss: 0.8688	Acc: 80.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8858
+[92m Client12 Val => 	Loss: 0.8832	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 25.000 	Loss: 1.1147
+[92m Client13 Val => 	Loss: 0.8831	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 53.846 	Loss: 0.9397
+[92m Client14 Val => 	Loss: 0.9706	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9465
+[92m Client15 Val => 	Loss: 0.9384	Acc: 68.750
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9107
+[92m Client16 Val => 	Loss: 0.9204	Acc: 81.818
+[91m Client17 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8991
+[92m Client17 Val => 	Loss: 0.9441	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9150
+[92m Client18 Val => 	Loss: 0.9398	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9139
+[92m Client19 Val => 	Loss: 0.9383	Acc: 73.333
+[91m Client20 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.8881
+[92m Client20 Val => 	Loss: 0.9751	Acc: 69.091
+[91m Client21 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.8913
+[92m Client21 Val => 	Loss: 0.9632	Acc: 79.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9474
+[92m Client22 Val => 	Loss: 0.9967	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   9, Avg Accuracy 72.494 | Avg Loss 0.931
+[92mVal:  Round   9, Avg Accuracy 69.233 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8989
+[92m Client0 Val => 	Loss: 0.8298	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 81.818 	Loss: 0.9067
+[92m Client1 Val => 	Loss: 0.9356	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9704
+[92m Client2 Val => 	Loss: 0.9282	Acc: 75.000
+[91m Client3 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.9189
+[92m Client3 Val => 	Loss: 0.9841	Acc: 50.000
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9432
+[92m Client4 Val => 	Loss: 0.8925	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9650
+[92m Client5 Val => 	Loss: 1.1184	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.9117
+[92m Client6 Val => 	Loss: 0.9688	Acc: 78.689
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.9030
+[92m Client7 Val => 	Loss: 0.9126	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.9219
+[92m Client8 Val => 	Loss: 0.9560	Acc: 61.364
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.8953
+[92m Client9 Val => 	Loss: 0.9012	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.8751
+[92m Client10 Val => 	Loss: 0.9000	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8785
+[92m Client11 Val => 	Loss: 0.8881	Acc: 86.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 47.826 	Loss: 1.0073
+[92m Client12 Val => 	Loss: 0.9621	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9962
+[92m Client13 Val => 	Loss: 0.9524	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9452
+[92m Client14 Val => 	Loss: 1.0186	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 74.576 	Loss: 0.8877
+[92m Client15 Val => 	Loss: 0.9488	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.9120
+[92m Client16 Val => 	Loss: 0.9618	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8661
+[92m Client17 Val => 	Loss: 0.9553	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 68.750 	Loss: 0.9354
+[92m Client18 Val => 	Loss: 0.9316	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.8854
+[92m Client19 Val => 	Loss: 0.9084	Acc: 75.556
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.9374
+[92m Client20 Val => 	Loss: 0.9446	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.9229
+[92m Client21 Val => 	Loss: 0.9773	Acc: 62.500
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9543
+[92m Client22 Val => 	Loss: 0.9850	Acc: 56.522
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  10, Avg Accuracy 73.254 | Avg Loss 0.931
+[92mVal:  Round  10, Avg Accuracy 69.925 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 1.0031
+[92m Client0 Val => 	Loss: 0.8112	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 84.848 	Loss: 0.9321
+[92m Client1 Val => 	Loss: 0.9880	Acc: 62.857
+[91m Client2 Train => Local Epoch: 0 	Acc: 74.359 	Loss: 0.9551
+[92m Client2 Val => 	Loss: 0.9298	Acc: 75.000
+[91m Client3 Train => Local Epoch: 0 	Acc: 56.757 	Loss: 0.9423
+[92m Client3 Val => 	Loss: 0.9928	Acc: 54.545
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.1025
+[92m Client4 Val => 	Loss: 0.9105	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9492
+[92m Client5 Val => 	Loss: 1.1338	Acc: 19.149
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.8790
+[92m Client6 Val => 	Loss: 0.9532	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.8867
+[92m Client7 Val => 	Loss: 0.9336	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.9279
+[92m Client8 Val => 	Loss: 0.9052	Acc: 72.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 54.054 	Loss: 1.0036
+[92m Client9 Val => 	Loss: 0.9199	Acc: 75.000
+[91m Client10 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9986
+[92m Client10 Val => 	Loss: 0.8603	Acc: 86.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9655
+[92m Client11 Val => 	Loss: 1.0069	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 69.565 	Loss: 0.8155
+[92m Client12 Val => 	Loss: 0.9030	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 1.0798
+[92m Client13 Val => 	Loss: 0.9683	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.8648
+[92m Client14 Val => 	Loss: 0.9260	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 79.661 	Loss: 0.9078
+[92m Client15 Val => 	Loss: 0.9751	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9376
+[92m Client16 Val => 	Loss: 0.9064	Acc: 83.636
+[91m Client17 Train => Local Epoch: 0 	Acc: 92.857 	Loss: 0.8891
+[92m Client17 Val => 	Loss: 0.9704	Acc: 74.359
+[91m Client18 Train => Local Epoch: 0 	Acc: 68.750 	Loss: 0.9311
+[92m Client18 Val => 	Loss: 0.9465	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9279
+[92m Client19 Val => 	Loss: 0.9223	Acc: 75.556
+[91m Client20 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.8961
+[92m Client20 Val => 	Loss: 0.9590	Acc: 69.091
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.9102
+[92m Client21 Val => 	Loss: 0.9155	Acc: 79.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 76.667 	Loss: 0.9260
+[92m Client22 Val => 	Loss: 0.9349	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  11, Avg Accuracy 72.778 | Avg Loss 0.932
+[92mVal:  Round  11, Avg Accuracy 70.251 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7866
+[92m Client0 Val => 	Loss: 0.9537	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 57.576 	Loss: 1.0114
+[92m Client1 Val => 	Loss: 0.8999	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 64.103 	Loss: 0.9576
+[92m Client2 Val => 	Loss: 0.9792	Acc: 72.222
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9540
+[92m Client3 Val => 	Loss: 0.9718	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8340
+[92m Client4 Val => 	Loss: 0.8966	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9538
+[92m Client5 Val => 	Loss: 1.1168	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 68.000 	Loss: 0.9738
+[92m Client6 Val => 	Loss: 0.9560	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.9055
+[92m Client7 Val => 	Loss: 0.8300	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 76.786 	Loss: 0.9607
+[92m Client8 Val => 	Loss: 0.8956	Acc: 65.909
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9488
+[92m Client9 Val => 	Loss: 0.9169	Acc: 79.688
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9037
+[92m Client10 Val => 	Loss: 0.9289	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.8967
+[92m Client11 Val => 	Loss: 0.9690	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 78.261 	Loss: 0.7962
+[92m Client12 Val => 	Loss: 0.9458	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8168
+[92m Client13 Val => 	Loss: 0.8585	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.8695
+[92m Client14 Val => 	Loss: 0.9894	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 61.017 	Loss: 0.9692
+[92m Client15 Val => 	Loss: 0.9931	Acc: 56.250
+[91m Client16 Train => Local Epoch: 0 	Acc: 71.053 	Loss: 0.9455
+[92m Client16 Val => 	Loss: 0.9398	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.8921
+[92m Client17 Val => 	Loss: 0.9565	Acc: 66.667
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9168
+[92m Client18 Val => 	Loss: 0.9157	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9467
+[92m Client19 Val => 	Loss: 0.8903	Acc: 88.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 97.368 	Loss: 0.8542
+[92m Client20 Val => 	Loss: 0.9230	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9276
+[92m Client21 Val => 	Loss: 0.9436	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 86.667 	Loss: 0.9177
+[92m Client22 Val => 	Loss: 0.9605	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  71.07734763972753
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  12, Avg Accuracy 73.902 | Avg Loss 0.930
+[92mVal:  Round  12, Avg Accuracy 71.077 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8695
+[92m Client0 Val => 	Loss: 1.0704	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9386
+[92m Client1 Val => 	Loss: 0.9613	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 94.872 	Loss: 0.8915
+[92m Client2 Val => 	Loss: 0.9867	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9312
+[92m Client3 Val => 	Loss: 0.8884	Acc: 86.364
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.1673
+[92m Client4 Val => 	Loss: 0.8999	Acc: 86.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9496
+[92m Client5 Val => 	Loss: 1.1045	Acc: 21.277
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9014
+[92m Client6 Val => 	Loss: 0.9378	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 77.049 	Loss: 0.9005
+[92m Client7 Val => 	Loss: 1.0281	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9178
+[92m Client8 Val => 	Loss: 0.9387	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.9213
+[92m Client9 Val => 	Loss: 0.9559	Acc: 67.188
+[91m Client10 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9545
+[92m Client10 Val => 	Loss: 0.8953	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9177
+[92m Client11 Val => 	Loss: 1.1022	Acc: 40.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 65.217 	Loss: 0.8771
+[92m Client12 Val => 	Loss: 0.9954	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8144
+[92m Client13 Val => 	Loss: 0.9345	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 1.0014
+[92m Client14 Val => 	Loss: 0.8712	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 76.271 	Loss: 0.9041
+[92m Client15 Val => 	Loss: 0.9566	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8871
+[92m Client16 Val => 	Loss: 0.9617	Acc: 70.909
+[91m Client17 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9718
+[92m Client17 Val => 	Loss: 0.9329	Acc: 74.359
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9196
+[92m Client18 Val => 	Loss: 0.8811	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9401
+[92m Client19 Val => 	Loss: 0.9225	Acc: 77.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 94.737 	Loss: 0.8990
+[92m Client20 Val => 	Loss: 0.9354	Acc: 78.182
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9427
+[92m Client21 Val => 	Loss: 0.9517	Acc: 70.833
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9182
+[92m Client22 Val => 	Loss: 0.9667	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  13, Avg Accuracy 72.787 | Avg Loss 0.932
+[92mVal:  Round  13, Avg Accuracy 69.790 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9097
+[92m Client0 Val => 	Loss: 1.2099	Acc: 0.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 90.909 	Loss: 0.9265
+[92m Client1 Val => 	Loss: 0.9580	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 89.744 	Loss: 0.8734
+[92m Client2 Val => 	Loss: 0.9307	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9238
+[92m Client3 Val => 	Loss: 1.0276	Acc: 50.000
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8029
+[92m Client4 Val => 	Loss: 0.8868	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9507
+[92m Client5 Val => 	Loss: 1.1288	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 72.000 	Loss: 0.9264
+[92m Client6 Val => 	Loss: 0.9417	Acc: 83.607
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.8980
+[92m Client7 Val => 	Loss: 1.0811	Acc: 40.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.9269
+[92m Client8 Val => 	Loss: 0.9506	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9271
+[92m Client9 Val => 	Loss: 0.9154	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 75.556 	Loss: 0.8607
+[92m Client10 Val => 	Loss: 0.8766	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 46.667 	Loss: 0.9842
+[92m Client11 Val => 	Loss: 1.0239	Acc: 46.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9223
+[92m Client12 Val => 	Loss: 0.9135	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.7447
+[92m Client13 Val => 	Loss: 0.9757	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 46.154 	Loss: 1.0114
+[92m Client14 Val => 	Loss: 0.8417	Acc: 92.308
+[91m Client15 Train => Local Epoch: 0 	Acc: 66.102 	Loss: 0.9693
+[92m Client15 Val => 	Loss: 0.9731	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9313
+[92m Client16 Val => 	Loss: 0.9375	Acc: 85.455
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9000
+[92m Client17 Val => 	Loss: 0.8819	Acc: 84.615
+[91m Client18 Train => Local Epoch: 0 	Acc: 60.938 	Loss: 0.9774
+[92m Client18 Val => 	Loss: 0.9541	Acc: 66.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9320
+[92m Client19 Val => 	Loss: 0.9255	Acc: 77.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 94.737 	Loss: 0.9135
+[92m Client20 Val => 	Loss: 0.9583	Acc: 74.545
+[91m Client21 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9542
+[92m Client21 Val => 	Loss: 0.9483	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 81.667 	Loss: 0.9257
+[92m Client22 Val => 	Loss: 0.9160	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  14, Avg Accuracy 73.268 | Avg Loss 0.930
+[92mVal:  Round  14, Avg Accuracy 69.267 |  Avg Loss 0.950
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9869
+[92m Client0 Val => 	Loss: 1.0805	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 81.818 	Loss: 0.9239
+[92m Client1 Val => 	Loss: 0.8992	Acc: 82.857
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9194
+[92m Client2 Val => 	Loss: 0.9723	Acc: 66.667
+[91m Client3 Train => Local Epoch: 0 	Acc: 59.459 	Loss: 0.9703
+[92m Client3 Val => 	Loss: 0.9580	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8607
+[92m Client4 Val => 	Loss: 0.9885	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9526
+[92m Client5 Val => 	Loss: 1.1520	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 92.000 	Loss: 0.8465
+[92m Client6 Val => 	Loss: 0.9585	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 81.967 	Loss: 0.8750
+[92m Client7 Val => 	Loss: 1.1639	Acc: 20.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 92.857 	Loss: 0.9029
+[92m Client8 Val => 	Loss: 0.9011	Acc: 72.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.9137
+[92m Client9 Val => 	Loss: 0.9254	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9012
+[92m Client10 Val => 	Loss: 0.8733	Acc: 93.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9436
+[92m Client11 Val => 	Loss: 1.0061	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8887
+[92m Client12 Val => 	Loss: 0.9567	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 1.0506
+[92m Client13 Val => 	Loss: 1.0044	Acc: 50.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 0.9831
+[92m Client14 Val => 	Loss: 0.9753	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9356
+[92m Client15 Val => 	Loss: 0.9708	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.9171
+[92m Client16 Val => 	Loss: 0.9354	Acc: 81.818
+[91m Client17 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 1.0093
+[92m Client17 Val => 	Loss: 0.9583	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 67.188 	Loss: 0.9279
+[92m Client18 Val => 	Loss: 0.9266	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.8859
+[92m Client19 Val => 	Loss: 0.9716	Acc: 57.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9518
+[92m Client20 Val => 	Loss: 0.9184	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.8941
+[92m Client21 Val => 	Loss: 0.9748	Acc: 68.750
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9330
+[92m Client22 Val => 	Loss: 0.9688	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  15, Avg Accuracy 72.890 | Avg Loss 0.931
+[92mVal:  Round  15, Avg Accuracy 68.865 |  Avg Loss 0.951
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9172
+[92m Client0 Val => 	Loss: 1.1576	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 72.727 	Loss: 0.9231
+[92m Client1 Val => 	Loss: 0.9475	Acc: 62.857
+[91m Client2 Train => Local Epoch: 0 	Acc: 87.179 	Loss: 0.9159
+[92m Client2 Val => 	Loss: 0.8952	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.8960
+[92m Client3 Val => 	Loss: 0.9534	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7674
+[92m Client4 Val => 	Loss: 1.0070	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 89.130 	Loss: 0.9571
+[92m Client5 Val => 	Loss: 1.1303	Acc: 14.894
+[91m Client6 Train => Local Epoch: 0 	Acc: 76.000 	Loss: 0.9250
+[92m Client6 Val => 	Loss: 0.9387	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 80.328 	Loss: 0.9024
+[92m Client7 Val => 	Loss: 0.9691	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 91.071 	Loss: 0.9119
+[92m Client8 Val => 	Loss: 0.9486	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9596
+[92m Client9 Val => 	Loss: 0.9506	Acc: 70.312
+[91m Client10 Train => Local Epoch: 0 	Acc: 71.111 	Loss: 0.8622
+[92m Client10 Val => 	Loss: 0.9982	Acc: 60.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9741
+[92m Client11 Val => 	Loss: 0.8393	Acc: 86.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 47.826 	Loss: 0.9787
+[92m Client12 Val => 	Loss: 0.9999	Acc: 52.632
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.6946
+[92m Client13 Val => 	Loss: 0.9148	Acc: 100.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9725
+[92m Client14 Val => 	Loss: 0.9017	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 69.492 	Loss: 0.9367
+[92m Client15 Val => 	Loss: 0.9919	Acc: 53.125
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9394
+[92m Client16 Val => 	Loss: 0.9474	Acc: 80.000
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8788
+[92m Client17 Val => 	Loss: 0.9245	Acc: 74.359
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9098
+[92m Client18 Val => 	Loss: 0.9548	Acc: 66.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9456
+[92m Client19 Val => 	Loss: 0.9203	Acc: 73.333
+[91m Client20 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9383
+[92m Client20 Val => 	Loss: 0.9211	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.9063
+[92m Client21 Val => 	Loss: 0.9523	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 78.333 	Loss: 0.9388
+[92m Client22 Val => 	Loss: 0.9367	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  16, Avg Accuracy 72.898 | Avg Loss 0.930
+[92mVal:  Round  16, Avg Accuracy 69.149 |  Avg Loss 0.949
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8714
+[92m Client0 Val => 	Loss: 1.1676	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9552
+[92m Client1 Val => 	Loss: 0.9305	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9355
+[92m Client2 Val => 	Loss: 0.9603	Acc: 72.222
+[91m Client3 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.8946
+[92m Client3 Val => 	Loss: 0.9052	Acc: 72.727
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.6667
+[92m Client4 Val => 	Loss: 1.0539	Acc: 46.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9531
+[92m Client5 Val => 	Loss: 1.1364	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.8380
+[92m Client6 Val => 	Loss: 0.9553	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 80.328 	Loss: 0.8868
+[92m Client7 Val => 	Loss: 1.1669	Acc: 20.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9504
+[92m Client8 Val => 	Loss: 0.9451	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9245
+[92m Client9 Val => 	Loss: 0.9301	Acc: 73.438
+[91m Client10 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9741
+[92m Client10 Val => 	Loss: 0.9181	Acc: 60.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9438
+[92m Client11 Val => 	Loss: 0.9551	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9081
+[92m Client12 Val => 	Loss: 1.0007	Acc: 52.632
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 1.0068
+[92m Client13 Val => 	Loss: 0.9521	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9175
+[92m Client14 Val => 	Loss: 0.9089	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 81.356 	Loss: 0.9068
+[92m Client15 Val => 	Loss: 1.0425	Acc: 50.000
+[91m Client16 Train => Local Epoch: 0 	Acc: 89.474 	Loss: 0.9112
+[92m Client16 Val => 	Loss: 0.9623	Acc: 74.545
+[91m Client17 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9087
+[92m Client17 Val => 	Loss: 0.9009	Acc: 82.051
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9196
+[92m Client18 Val => 	Loss: 0.9250	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 67.857 	Loss: 0.9578
+[92m Client19 Val => 	Loss: 0.8702	Acc: 75.556
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.9200
+[92m Client20 Val => 	Loss: 0.9257	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.9064
+[92m Client21 Val => 	Loss: 1.0051	Acc: 64.583
+[91m Client22 Train => Local Epoch: 0 	Acc: 78.333 	Loss: 0.9460
+[92m Client22 Val => 	Loss: 0.9179	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  17, Avg Accuracy 72.477 | Avg Loss 0.930
+[92mVal:  Round  17, Avg Accuracy 68.140 |  Avg Loss 0.951
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8507
+[92m Client0 Val => 	Loss: 0.9752	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 81.818 	Loss: 0.9182
+[92m Client1 Val => 	Loss: 1.0140	Acc: 62.857
+[91m Client2 Train => Local Epoch: 0 	Acc: 71.795 	Loss: 0.9803
+[92m Client2 Val => 	Loss: 0.9557	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 54.054 	Loss: 1.0070
+[92m Client3 Val => 	Loss: 0.9826	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0487
+[92m Client4 Val => 	Loss: 0.9582	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9386
+[92m Client5 Val => 	Loss: 1.1421	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 68.000 	Loss: 0.9414
+[92m Client6 Val => 	Loss: 0.9458	Acc: 85.246
+[91m Client7 Train => Local Epoch: 0 	Acc: 68.852 	Loss: 0.9273
+[92m Client7 Val => 	Loss: 0.7001	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9328
+[92m Client8 Val => 	Loss: 0.9142	Acc: 65.909
+[91m Client9 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.8920
+[92m Client9 Val => 	Loss: 0.8987	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.9000
+[92m Client10 Val => 	Loss: 0.7999	Acc: 93.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9427
+[92m Client11 Val => 	Loss: 1.0419	Acc: 40.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9258
+[92m Client12 Val => 	Loss: 0.9544	Acc: 65.789
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.7491
+[92m Client13 Val => 	Loss: 1.0043	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9439
+[92m Client14 Val => 	Loss: 0.9031	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 74.576 	Loss: 0.9317
+[92m Client15 Val => 	Loss: 0.9092	Acc: 84.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9277
+[92m Client16 Val => 	Loss: 0.9872	Acc: 70.909
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8708
+[92m Client17 Val => 	Loss: 0.9124	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 82.812 	Loss: 0.8920
+[92m Client18 Val => 	Loss: 0.9158	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9333
+[92m Client19 Val => 	Loss: 0.9552	Acc: 66.667
+[91m Client20 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.8916
+[92m Client20 Val => 	Loss: 0.9407	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.9100
+[92m Client21 Val => 	Loss: 0.9529	Acc: 75.000
+[91m Client22 Train => Local Epoch: 0 	Acc: 68.333 	Loss: 0.9592
+[92m Client22 Val => 	Loss: 0.8757	Acc: 82.609
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  18, Avg Accuracy 72.582 | Avg Loss 0.931
+[92mVal:  Round  18, Avg Accuracy 69.403 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.8504
+[92m Client0 Val => 	Loss: 1.0515	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.9297
+[92m Client1 Val => 	Loss: 0.9302	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9097
+[92m Client2 Val => 	Loss: 0.9528	Acc: 66.667
+[91m Client3 Train => Local Epoch: 0 	Acc: 51.351 	Loss: 1.0135
+[92m Client3 Val => 	Loss: 0.9585	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.0992
+[92m Client4 Val => 	Loss: 0.9151	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9390
+[92m Client5 Val => 	Loss: 1.1458	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.8551
+[92m Client6 Val => 	Loss: 0.9313	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 88.525 	Loss: 0.8407
+[92m Client7 Val => 	Loss: 1.0501	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9429
+[92m Client8 Val => 	Loss: 0.9089	Acc: 72.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9148
+[92m Client9 Val => 	Loss: 0.8959	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9046
+[92m Client10 Val => 	Loss: 0.7578	Acc: 100.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8613
+[92m Client11 Val => 	Loss: 1.0379	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9173
+[92m Client12 Val => 	Loss: 0.9624	Acc: 55.263
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8471
+[92m Client13 Val => 	Loss: 0.9080	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8427
+[92m Client14 Val => 	Loss: 0.9588	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 74.576 	Loss: 0.9476
+[92m Client15 Val => 	Loss: 0.9154	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9470
+[92m Client16 Val => 	Loss: 0.9674	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8784
+[92m Client17 Val => 	Loss: 0.8943	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 82.812 	Loss: 0.9185
+[92m Client18 Val => 	Loss: 0.8935	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9448
+[92m Client19 Val => 	Loss: 0.8928	Acc: 80.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.8985
+[92m Client20 Val => 	Loss: 0.9349	Acc: 76.364
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.9005
+[92m Client21 Val => 	Loss: 0.9436	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 78.333 	Loss: 0.9483
+[92m Client22 Val => 	Loss: 0.9748	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  19, Avg Accuracy 71.804 | Avg Loss 0.931
+[92mVal:  Round  19, Avg Accuracy 68.826 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8971
+[92m Client0 Val => 	Loss: 0.8321	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9303
+[92m Client1 Val => 	Loss: 0.9567	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9656
+[92m Client2 Val => 	Loss: 0.9127	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9350
+[92m Client3 Val => 	Loss: 0.8545	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.0786
+[92m Client4 Val => 	Loss: 0.9503	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 97.826 	Loss: 0.9505
+[92m Client5 Val => 	Loss: 1.1419	Acc: 4.255
+[91m Client6 Train => Local Epoch: 0 	Acc: 76.000 	Loss: 0.8980
+[92m Client6 Val => 	Loss: 0.9476	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 88.525 	Loss: 0.8688
+[92m Client7 Val => 	Loss: 0.9224	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.9380
+[92m Client8 Val => 	Loss: 0.9191	Acc: 70.455
+[91m Client9 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9069
+[92m Client9 Val => 	Loss: 0.9320	Acc: 73.438
+[91m Client10 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.8367
+[92m Client10 Val => 	Loss: 0.8485	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9205
+[92m Client11 Val => 	Loss: 0.9486	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 73.913 	Loss: 0.7928
+[92m Client12 Val => 	Loss: 0.9146	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 1.0332
+[92m Client13 Val => 	Loss: 0.9609	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 0.9537
+[92m Client14 Val => 	Loss: 0.9777	Acc: 53.846
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9724
+[92m Client15 Val => 	Loss: 0.9701	Acc: 68.750
+[91m Client16 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.9024
+[92m Client16 Val => 	Loss: 0.9459	Acc: 78.182
+[91m Client17 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9179
+[92m Client17 Val => 	Loss: 0.9457	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 70.312 	Loss: 0.9286
+[92m Client18 Val => 	Loss: 0.9076	Acc: 83.333
+[91m Client19 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 0.9594
+[92m Client19 Val => 	Loss: 0.8767	Acc: 80.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.8833
+[92m Client20 Val => 	Loss: 0.9117	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9388
+[92m Client21 Val => 	Loss: 0.9328	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 86.667 	Loss: 0.9083
+[92m Client22 Val => 	Loss: 0.9190	Acc: 86.957
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  20, Avg Accuracy 72.525 | Avg Loss 0.931
+[92mVal:  Round  20, Avg Accuracy 69.711 |  Avg Loss 0.945
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9354
+[92m Client0 Val => 	Loss: 0.9271	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.9170
+[92m Client1 Val => 	Loss: 0.9282	Acc: 74.286
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9371
+[92m Client2 Val => 	Loss: 0.9296	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.9111
+[92m Client3 Val => 	Loss: 0.9384	Acc: 63.636
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0476
+[92m Client4 Val => 	Loss: 0.8699	Acc: 86.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9448
+[92m Client5 Val => 	Loss: 1.1726	Acc: 2.128
+[91m Client6 Train => Local Epoch: 0 	Acc: 96.000 	Loss: 0.8528
+[92m Client6 Val => 	Loss: 0.9383	Acc: 81.967
+[91m Client7 Train => Local Epoch: 0 	Acc: 73.770 	Loss: 0.9037
+[92m Client7 Val => 	Loss: 0.9378	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9529
+[92m Client8 Val => 	Loss: 0.9494	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9586
+[92m Client9 Val => 	Loss: 0.9356	Acc: 70.312
+[91m Client10 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9454
+[92m Client10 Val => 	Loss: 0.9427	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.8919
+[92m Client11 Val => 	Loss: 1.0254	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8953
+[92m Client12 Val => 	Loss: 0.9091	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9083
+[92m Client13 Val => 	Loss: 1.0069	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9344
+[92m Client14 Val => 	Loss: 0.9170	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9347
+[92m Client15 Val => 	Loss: 0.9452	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.8973
+[92m Client16 Val => 	Loss: 0.9280	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 0.9588
+[92m Client17 Val => 	Loss: 0.9457	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 71.875 	Loss: 0.9262
+[92m Client18 Val => 	Loss: 0.9093	Acc: 91.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9244
+[92m Client19 Val => 	Loss: 0.9405	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9068
+[92m Client20 Val => 	Loss: 0.9333	Acc: 74.545
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.9020
+[92m Client21 Val => 	Loss: 0.9255	Acc: 75.000
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9290
+[92m Client22 Val => 	Loss: 0.8918	Acc: 78.261
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  21, Avg Accuracy 73.582 | Avg Loss 0.931
+[92mVal:  Round  21, Avg Accuracy 70.769 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9436
+[92m Client0 Val => 	Loss: 0.8753	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 84.848 	Loss: 0.8946
+[92m Client1 Val => 	Loss: 0.9522	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9450
+[92m Client2 Val => 	Loss: 0.8814	Acc: 75.000
+[91m Client3 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.8896
+[92m Client3 Val => 	Loss: 0.9556	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8020
+[92m Client4 Val => 	Loss: 0.9032	Acc: 86.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 84.783 	Loss: 0.9592
+[92m Client5 Val => 	Loss: 1.1057	Acc: 14.894
+[91m Client6 Train => Local Epoch: 0 	Acc: 92.000 	Loss: 0.8570
+[92m Client6 Val => 	Loss: 0.9383	Acc: 81.967
+[91m Client7 Train => Local Epoch: 0 	Acc: 83.607 	Loss: 0.8747
+[92m Client7 Val => 	Loss: 0.9391	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9051
+[92m Client8 Val => 	Loss: 0.9899	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9001
+[92m Client9 Val => 	Loss: 0.9440	Acc: 78.125
+[91m Client10 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9667
+[92m Client10 Val => 	Loss: 0.8526	Acc: 86.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 42.222 	Loss: 1.0416
+[92m Client11 Val => 	Loss: 1.0570	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 52.174 	Loss: 0.9549
+[92m Client12 Val => 	Loss: 0.9553	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 1.0035
+[92m Client13 Val => 	Loss: 0.9523	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 0.9047
+[92m Client14 Val => 	Loss: 1.0019	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 69.492 	Loss: 0.9581
+[92m Client15 Val => 	Loss: 0.9203	Acc: 75.000
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9378
+[92m Client16 Val => 	Loss: 0.9798	Acc: 72.727
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9592
+[92m Client17 Val => 	Loss: 0.9614	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 76.562 	Loss: 0.8967
+[92m Client18 Val => 	Loss: 0.9459	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9135
+[92m Client19 Val => 	Loss: 0.9547	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9235
+[92m Client20 Val => 	Loss: 0.9450	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8842
+[92m Client21 Val => 	Loss: 0.9648	Acc: 66.667
+[91m Client22 Train => Local Epoch: 0 	Acc: 71.667 	Loss: 0.9650
+[92m Client22 Val => 	Loss: 0.9454	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  22, Avg Accuracy 72.944 | Avg Loss 0.931
+[92mVal:  Round  22, Avg Accuracy 69.577 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9272
+[92m Client0 Val => 	Loss: 1.2276	Acc: 0.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9468
+[92m Client1 Val => 	Loss: 0.9576	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9340
+[92m Client2 Val => 	Loss: 0.8479	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.8971
+[92m Client3 Val => 	Loss: 0.9301	Acc: 77.273
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7870
+[92m Client4 Val => 	Loss: 0.8768	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 95.652 	Loss: 0.9336
+[92m Client5 Val => 	Loss: 1.1458	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9191
+[92m Client6 Val => 	Loss: 0.9425	Acc: 75.410
+[91m Client7 Train => Local Epoch: 0 	Acc: 70.492 	Loss: 0.8968
+[92m Client7 Val => 	Loss: 0.7687	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9224
+[92m Client8 Val => 	Loss: 0.9592	Acc: 56.818
+[91m Client9 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9100
+[92m Client9 Val => 	Loss: 0.9340	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.8821
+[92m Client10 Val => 	Loss: 0.9420	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9630
+[92m Client11 Val => 	Loss: 0.9088	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8480
+[92m Client12 Val => 	Loss: 0.8782	Acc: 84.211
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7291
+[92m Client13 Val => 	Loss: 1.0307	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 53.846 	Loss: 0.9325
+[92m Client14 Val => 	Loss: 0.9219	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 54.237 	Loss: 0.9855
+[92m Client15 Val => 	Loss: 0.9068	Acc: 68.750
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9314
+[92m Client16 Val => 	Loss: 0.9325	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 67.857 	Loss: 0.9047
+[92m Client17 Val => 	Loss: 0.9383	Acc: 74.359
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9068
+[92m Client18 Val => 	Loss: 0.8919	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 76.786 	Loss: 0.9255
+[92m Client19 Val => 	Loss: 0.9187	Acc: 77.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 68.421 	Loss: 0.9254
+[92m Client20 Val => 	Loss: 0.9374	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9205
+[92m Client21 Val => 	Loss: 0.9402	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 78.333 	Loss: 0.9440
+[92m Client22 Val => 	Loss: 0.9390	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  23, Avg Accuracy 73.021 | Avg Loss 0.930
+[92mVal:  Round  23, Avg Accuracy 69.616 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9241
+[92m Client0 Val => 	Loss: 0.8591	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.9335
+[92m Client1 Val => 	Loss: 0.9363	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 71.795 	Loss: 0.9544
+[92m Client2 Val => 	Loss: 0.9504	Acc: 66.667
+[91m Client3 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.8896
+[92m Client3 Val => 	Loss: 0.9580	Acc: 54.545
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8623
+[92m Client4 Val => 	Loss: 1.0027	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 89.130 	Loss: 0.9604
+[92m Client5 Val => 	Loss: 1.1593	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.8840
+[92m Client6 Val => 	Loss: 0.9549	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 65.574 	Loss: 0.9580
+[92m Client7 Val => 	Loss: 0.8495	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9527
+[92m Client8 Val => 	Loss: 0.9326	Acc: 72.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.8886
+[92m Client9 Val => 	Loss: 0.9266	Acc: 79.688
+[91m Client10 Train => Local Epoch: 0 	Acc: 75.556 	Loss: 0.8925
+[92m Client10 Val => 	Loss: 0.9571	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 42.222 	Loss: 1.0058
+[92m Client11 Val => 	Loss: 0.9630	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 69.565 	Loss: 0.8239
+[92m Client12 Val => 	Loss: 0.9237	Acc: 76.316
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9081
+[92m Client13 Val => 	Loss: 0.8838	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9071
+[92m Client14 Val => 	Loss: 0.8896	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 69.492 	Loss: 0.9357
+[92m Client15 Val => 	Loss: 0.9347	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 89.474 	Loss: 0.8929
+[92m Client16 Val => 	Loss: 0.9044	Acc: 89.091
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9270
+[92m Client17 Val => 	Loss: 0.8880	Acc: 84.615
+[91m Client18 Train => Local Epoch: 0 	Acc: 65.625 	Loss: 0.9649
+[92m Client18 Val => 	Loss: 0.9744	Acc: 66.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 64.286 	Loss: 0.9612
+[92m Client19 Val => 	Loss: 0.9420	Acc: 64.444
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9036
+[92m Client20 Val => 	Loss: 0.8917	Acc: 83.636
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9276
+[92m Client21 Val => 	Loss: 0.9241	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9274
+[92m Client22 Val => 	Loss: 0.9809	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  24, Avg Accuracy 72.524 | Avg Loss 0.931
+[92mVal:  Round  24, Avg Accuracy 69.208 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8740
+[92m Client0 Val => 	Loss: 1.0025	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 63.636 	Loss: 1.0104
+[92m Client1 Val => 	Loss: 0.9846	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9372
+[92m Client2 Val => 	Loss: 0.9614	Acc: 75.000
+[91m Client3 Train => Local Epoch: 0 	Acc: 59.459 	Loss: 0.9647
+[92m Client3 Val => 	Loss: 0.9242	Acc: 77.273
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.5450
+[92m Client4 Val => 	Loss: 1.0529	Acc: 40.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9344
+[92m Client5 Val => 	Loss: 1.1173	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 96.000 	Loss: 0.8594
+[92m Client6 Val => 	Loss: 0.9885	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 65.574 	Loss: 0.9580
+[92m Client7 Val => 	Loss: 1.0235	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9455
+[92m Client8 Val => 	Loss: 0.9194	Acc: 68.182
+[91m Client9 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.9128
+[92m Client9 Val => 	Loss: 0.9477	Acc: 73.438
+[91m Client10 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9512
+[92m Client10 Val => 	Loss: 0.8568	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.8830
+[92m Client11 Val => 	Loss: 0.9911	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 65.217 	Loss: 0.8885
+[92m Client12 Val => 	Loss: 0.9996	Acc: 55.263
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.7937
+[92m Client13 Val => 	Loss: 0.9003	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8669
+[92m Client14 Val => 	Loss: 0.9535	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 64.407 	Loss: 0.9452
+[92m Client15 Val => 	Loss: 0.9980	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9301
+[92m Client16 Val => 	Loss: 0.9278	Acc: 80.000
+[91m Client17 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9324
+[92m Client17 Val => 	Loss: 0.9042	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 71.875 	Loss: 0.9099
+[92m Client18 Val => 	Loss: 0.9132	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9470
+[92m Client19 Val => 	Loss: 0.9568	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8896
+[92m Client20 Val => 	Loss: 0.9743	Acc: 72.727
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.9125
+[92m Client21 Val => 	Loss: 0.9451	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9315
+[92m Client22 Val => 	Loss: 0.8897	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  25, Avg Accuracy 72.670 | Avg Loss 0.930
+[92mVal:  Round  25, Avg Accuracy 69.289 |  Avg Loss 0.949
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8308
+[92m Client0 Val => 	Loss: 0.8826	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9030
+[92m Client1 Val => 	Loss: 0.9506	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 74.359 	Loss: 0.9265
+[92m Client2 Val => 	Loss: 0.8886	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9332
+[92m Client3 Val => 	Loss: 0.9059	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0529
+[92m Client4 Val => 	Loss: 1.0326	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 89.130 	Loss: 0.9619
+[92m Client5 Val => 	Loss: 1.1522	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.8946
+[92m Client6 Val => 	Loss: 0.9607	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 73.770 	Loss: 0.9196
+[92m Client7 Val => 	Loss: 1.0156	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9384
+[92m Client8 Val => 	Loss: 0.9239	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9393
+[92m Client9 Val => 	Loss: 0.9240	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.8759
+[92m Client10 Val => 	Loss: 0.8876	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 48.889 	Loss: 0.9895
+[92m Client11 Val => 	Loss: 0.9796	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9268
+[92m Client12 Val => 	Loss: 0.9203	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8796
+[92m Client13 Val => 	Loss: 0.8746	Acc: 100.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8659
+[92m Client14 Val => 	Loss: 1.0298	Acc: 38.462
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9493
+[92m Client15 Val => 	Loss: 0.9384	Acc: 71.875
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9339
+[92m Client16 Val => 	Loss: 0.9373	Acc: 78.182
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8863
+[92m Client17 Val => 	Loss: 0.8873	Acc: 82.051
+[91m Client18 Train => Local Epoch: 0 	Acc: 64.062 	Loss: 0.9751
+[92m Client18 Val => 	Loss: 0.9529	Acc: 62.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9389
+[92m Client19 Val => 	Loss: 0.9215	Acc: 64.444
+[91m Client20 Train => Local Epoch: 0 	Acc: 89.474 	Loss: 0.8919
+[92m Client20 Val => 	Loss: 0.9615	Acc: 74.545
+[91m Client21 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9079
+[92m Client21 Val => 	Loss: 0.9257	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9433
+[92m Client22 Val => 	Loss: 0.9670	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  26, Avg Accuracy 72.628 | Avg Loss 0.931
+[92mVal:  Round  26, Avg Accuracy 69.028 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9336
+[92m Client0 Val => 	Loss: 0.9656	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9517
+[92m Client1 Val => 	Loss: 0.9516	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9441
+[92m Client2 Val => 	Loss: 0.9260	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 56.757 	Loss: 0.9566
+[92m Client3 Val => 	Loss: 0.9073	Acc: 77.273
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.6870
+[92m Client4 Val => 	Loss: 0.9707	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 89.130 	Loss: 0.9617
+[92m Client5 Val => 	Loss: 1.1248	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.9241
+[92m Client6 Val => 	Loss: 0.9671	Acc: 78.689
+[91m Client7 Train => Local Epoch: 0 	Acc: 70.492 	Loss: 0.9243
+[92m Client7 Val => 	Loss: 1.0906	Acc: 20.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9154
+[92m Client8 Val => 	Loss: 0.9574	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9506
+[92m Client9 Val => 	Loss: 0.9396	Acc: 70.312
+[91m Client10 Train => Local Epoch: 0 	Acc: 46.667 	Loss: 0.9766
+[92m Client10 Val => 	Loss: 0.9191	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9430
+[92m Client11 Val => 	Loss: 0.9831	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 52.174 	Loss: 0.9284
+[92m Client12 Val => 	Loss: 0.9199	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7449
+[92m Client13 Val => 	Loss: 0.9055	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9244
+[92m Client14 Val => 	Loss: 0.9849	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 69.492 	Loss: 0.9498
+[92m Client15 Val => 	Loss: 0.9198	Acc: 75.000
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9082
+[92m Client16 Val => 	Loss: 0.9192	Acc: 83.636
+[91m Client17 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9767
+[92m Client17 Val => 	Loss: 0.9564	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 71.875 	Loss: 0.8951
+[92m Client18 Val => 	Loss: 0.9395	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 76.786 	Loss: 0.8850
+[92m Client19 Val => 	Loss: 0.9345	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.9071
+[92m Client20 Val => 	Loss: 0.9180	Acc: 78.182
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9031
+[92m Client21 Val => 	Loss: 0.8889	Acc: 89.583
+[91m Client22 Train => Local Epoch: 0 	Acc: 85.000 	Loss: 0.9268
+[92m Client22 Val => 	Loss: 0.9498	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  27, Avg Accuracy 72.629 | Avg Loss 0.930
+[92mVal:  Round  27, Avg Accuracy 69.082 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.9171
+[92m Client0 Val => 	Loss: 0.8911	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.9944
+[92m Client1 Val => 	Loss: 0.9291	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9629
+[92m Client2 Val => 	Loss: 0.9068	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9345
+[92m Client3 Val => 	Loss: 0.9837	Acc: 63.636
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.0632
+[92m Client4 Val => 	Loss: 0.9795	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9568
+[92m Client5 Val => 	Loss: 1.1518	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.8847
+[92m Client6 Val => 	Loss: 0.9483	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 88.525 	Loss: 0.8556
+[92m Client7 Val => 	Loss: 1.1004	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9368
+[92m Client8 Val => 	Loss: 0.9845	Acc: 54.545
+[91m Client9 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9218
+[92m Client9 Val => 	Loss: 0.9120	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9798
+[92m Client10 Val => 	Loss: 0.8537	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 57.778 	Loss: 0.9344
+[92m Client11 Val => 	Loss: 0.9473	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 78.261 	Loss: 0.8340
+[92m Client12 Val => 	Loss: 1.0027	Acc: 47.368
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9201
+[92m Client13 Val => 	Loss: 0.9792	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9216
+[92m Client14 Val => 	Loss: 0.9215	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 77.966 	Loss: 0.9082
+[92m Client15 Val => 	Loss: 0.9474	Acc: 71.875
+[91m Client16 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9064
+[92m Client16 Val => 	Loss: 0.9061	Acc: 90.909
+[91m Client17 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9743
+[92m Client17 Val => 	Loss: 0.9671	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9109
+[92m Client18 Val => 	Loss: 0.9566	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9190
+[92m Client19 Val => 	Loss: 0.9513	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9405
+[92m Client20 Val => 	Loss: 0.9159	Acc: 83.636
+[91m Client21 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9182
+[92m Client21 Val => 	Loss: 0.9599	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.9457
+[92m Client22 Val => 	Loss: 0.9729	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  28, Avg Accuracy 72.705 | Avg Loss 0.931
+[92mVal:  Round  28, Avg Accuracy 69.066 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8678
+[92m Client0 Val => 	Loss: 0.9651	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9603
+[92m Client1 Val => 	Loss: 0.9286	Acc: 74.286
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9502
+[92m Client2 Val => 	Loss: 0.9264	Acc: 75.000
+[91m Client3 Train => Local Epoch: 0 	Acc: 64.865 	Loss: 0.9650
+[92m Client3 Val => 	Loss: 0.9174	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0380
+[92m Client4 Val => 	Loss: 0.9812	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9541
+[92m Client5 Val => 	Loss: 1.1522	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 76.000 	Loss: 0.9186
+[92m Client6 Val => 	Loss: 0.9485	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.8858
+[92m Client7 Val => 	Loss: 0.8417	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9421
+[92m Client8 Val => 	Loss: 0.9036	Acc: 61.364
+[91m Client9 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.8674
+[92m Client9 Val => 	Loss: 0.9198	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9359
+[92m Client10 Val => 	Loss: 0.9428	Acc: 53.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 46.667 	Loss: 1.0062
+[92m Client11 Val => 	Loss: 1.1032	Acc: 33.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8901
+[92m Client12 Val => 	Loss: 0.9237	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8723
+[92m Client13 Val => 	Loss: 0.9189	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9190
+[92m Client14 Val => 	Loss: 1.0039	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 77.966 	Loss: 0.9293
+[92m Client15 Val => 	Loss: 1.0167	Acc: 50.000
+[91m Client16 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8868
+[92m Client16 Val => 	Loss: 0.9235	Acc: 83.636
+[91m Client17 Train => Local Epoch: 0 	Acc: 67.857 	Loss: 0.9429
+[92m Client17 Val => 	Loss: 0.9703	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 60.938 	Loss: 0.9603
+[92m Client18 Val => 	Loss: 0.9283	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9611
+[92m Client19 Val => 	Loss: 0.9482	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.9197
+[92m Client20 Val => 	Loss: 0.9174	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.9100
+[92m Client21 Val => 	Loss: 0.9270	Acc: 79.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9410
+[92m Client22 Val => 	Loss: 0.9633	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  29, Avg Accuracy 73.028 | Avg Loss 0.931
+[92mVal:  Round  29, Avg Accuracy 69.401 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9119
+[92m Client0 Val => 	Loss: 1.0705	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 63.636 	Loss: 1.0141
+[92m Client1 Val => 	Loss: 0.9373	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 87.179 	Loss: 0.9315
+[92m Client2 Val => 	Loss: 0.9256	Acc: 72.222
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9572
+[92m Client3 Val => 	Loss: 0.9712	Acc: 63.636
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8314
+[92m Client4 Val => 	Loss: 0.9381	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 95.652 	Loss: 0.9517
+[92m Client5 Val => 	Loss: 1.1350	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9124
+[92m Client6 Val => 	Loss: 0.9689	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 70.492 	Loss: 0.9392
+[92m Client7 Val => 	Loss: 0.9170	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9418
+[92m Client8 Val => 	Loss: 0.9021	Acc: 68.182
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9424
+[92m Client9 Val => 	Loss: 0.9231	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9307
+[92m Client10 Val => 	Loss: 0.8846	Acc: 86.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9780
+[92m Client11 Val => 	Loss: 1.0267	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 52.174 	Loss: 0.9405
+[92m Client12 Val => 	Loss: 0.9105	Acc: 73.684
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8410
+[92m Client13 Val => 	Loss: 0.9746	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 61.538 	Loss: 0.9262
+[92m Client14 Val => 	Loss: 0.9125	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 62.712 	Loss: 0.9411
+[92m Client15 Val => 	Loss: 0.9327	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9093
+[92m Client16 Val => 	Loss: 0.9620	Acc: 70.909
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9254
+[92m Client17 Val => 	Loss: 0.9397	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 71.875 	Loss: 0.9223
+[92m Client18 Val => 	Loss: 0.9617	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 67.857 	Loss: 0.9181
+[92m Client19 Val => 	Loss: 0.9751	Acc: 60.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9075
+[92m Client20 Val => 	Loss: 0.9511	Acc: 74.545
+[91m Client21 Train => Local Epoch: 0 	Acc: 77.083 	Loss: 0.9491
+[92m Client21 Val => 	Loss: 0.9346	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 78.333 	Loss: 0.9368
+[92m Client22 Val => 	Loss: 0.9316	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  30, Avg Accuracy 72.613 | Avg Loss 0.931
+[92mVal:  Round  30, Avg Accuracy 69.520 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9552
+[92m Client0 Val => 	Loss: 0.8429	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 81.818 	Loss: 0.9087
+[92m Client1 Val => 	Loss: 0.9663	Acc: 60.000
+[91m Client2 Train => Local Epoch: 0 	Acc: 89.744 	Loss: 0.9013
+[92m Client2 Val => 	Loss: 0.9043	Acc: 86.111
+[91m Client3 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9183
+[92m Client3 Val => 	Loss: 1.0042	Acc: 54.545
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7936
+[92m Client4 Val => 	Loss: 0.8813	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 97.826 	Loss: 0.9471
+[92m Client5 Val => 	Loss: 1.1379	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9132
+[92m Client6 Val => 	Loss: 0.9540	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 81.967 	Loss: 0.8680
+[92m Client7 Val => 	Loss: 0.9873	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9345
+[92m Client8 Val => 	Loss: 0.9792	Acc: 56.818
+[91m Client9 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.9431
+[92m Client9 Val => 	Loss: 0.9455	Acc: 75.000
+[91m Client10 Train => Local Epoch: 0 	Acc: 57.778 	Loss: 0.9400
+[92m Client10 Val => 	Loss: 0.9756	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.8976
+[92m Client11 Val => 	Loss: 0.8933	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 82.609 	Loss: 0.7315
+[92m Client12 Val => 	Loss: 0.9837	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8302
+[92m Client13 Val => 	Loss: 0.9615	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8955
+[92m Client14 Val => 	Loss: 1.0392	Acc: 46.154
+[91m Client15 Train => Local Epoch: 0 	Acc: 81.356 	Loss: 0.8998
+[92m Client15 Val => 	Loss: 0.9381	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9413
+[92m Client16 Val => 	Loss: 0.9393	Acc: 80.000
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9000
+[92m Client17 Val => 	Loss: 0.9425	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9424
+[92m Client18 Val => 	Loss: 0.9510	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9329
+[92m Client19 Val => 	Loss: 0.9799	Acc: 62.222
+[91m Client20 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.9054
+[92m Client20 Val => 	Loss: 0.9288	Acc: 78.182
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.8988
+[92m Client21 Val => 	Loss: 0.9689	Acc: 70.833
+[91m Client22 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9439
+[92m Client22 Val => 	Loss: 0.9412	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  31, Avg Accuracy 73.085 | Avg Loss 0.930
+[92mVal:  Round  31, Avg Accuracy 69.145 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8837
+[92m Client0 Val => 	Loss: 1.0124	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 78.788 	Loss: 0.8882
+[92m Client1 Val => 	Loss: 1.0038	Acc: 54.286
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9192
+[92m Client2 Val => 	Loss: 0.9316	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9285
+[92m Client3 Val => 	Loss: 1.0132	Acc: 50.000
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.1493
+[92m Client4 Val => 	Loss: 0.8976	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9529
+[92m Client5 Val => 	Loss: 1.1277	Acc: 21.277
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.8994
+[92m Client6 Val => 	Loss: 0.9190	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 70.492 	Loss: 0.9194
+[92m Client7 Val => 	Loss: 0.9076	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9620
+[92m Client8 Val => 	Loss: 0.9861	Acc: 59.091
+[91m Client9 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9168
+[92m Client9 Val => 	Loss: 0.9141	Acc: 78.125
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9202
+[92m Client10 Val => 	Loss: 0.9312	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9261
+[92m Client11 Val => 	Loss: 0.9512	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9222
+[92m Client12 Val => 	Loss: 0.8845	Acc: 76.316
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8493
+[92m Client13 Val => 	Loss: 0.9814	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.8648
+[92m Client14 Val => 	Loss: 0.8697	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9604
+[92m Client15 Val => 	Loss: 0.9620	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9124
+[92m Client16 Val => 	Loss: 0.9269	Acc: 80.000
+[91m Client17 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8721
+[92m Client17 Val => 	Loss: 0.9493	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 73.438 	Loss: 0.9137
+[92m Client18 Val => 	Loss: 0.8306	Acc: 83.333
+[91m Client19 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8918
+[92m Client19 Val => 	Loss: 0.8934	Acc: 75.556
+[91m Client20 Train => Local Epoch: 0 	Acc: 57.895 	Loss: 1.0106
+[92m Client20 Val => 	Loss: 0.9533	Acc: 76.364
+[91m Client21 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9216
+[92m Client21 Val => 	Loss: 0.9599	Acc: 70.833
+[91m Client22 Train => Local Epoch: 0 	Acc: 85.000 	Loss: 0.9155
+[92m Client22 Val => 	Loss: 0.9995	Acc: 47.826
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  32, Avg Accuracy 72.365 | Avg Loss 0.931
+[92mVal:  Round  32, Avg Accuracy 68.880 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8905
+[92m Client0 Val => 	Loss: 0.8510	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9529
+[92m Client1 Val => 	Loss: 0.9551	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 89.744 	Loss: 0.9312
+[92m Client2 Val => 	Loss: 0.9447	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.8988
+[92m Client3 Val => 	Loss: 0.9742	Acc: 63.636
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9531
+[92m Client4 Val => 	Loss: 0.9554	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9524
+[92m Client5 Val => 	Loss: 1.1383	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 64.000 	Loss: 0.9335
+[92m Client6 Val => 	Loss: 0.9379	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.9515
+[92m Client7 Val => 	Loss: 1.0814	Acc: 20.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9286
+[92m Client8 Val => 	Loss: 0.9494	Acc: 61.364
+[91m Client9 Train => Local Epoch: 0 	Acc: 51.351 	Loss: 1.0194
+[92m Client9 Val => 	Loss: 0.8912	Acc: 82.812
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.8924
+[92m Client10 Val => 	Loss: 0.8802	Acc: 93.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9785
+[92m Client11 Val => 	Loss: 0.9521	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 82.609 	Loss: 0.8071
+[92m Client12 Val => 	Loss: 0.9448	Acc: 57.895
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8439
+[92m Client13 Val => 	Loss: 0.9317	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8202
+[92m Client14 Val => 	Loss: 0.8894	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9654
+[92m Client15 Val => 	Loss: 0.9649	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 63.158 	Loss: 0.9649
+[92m Client16 Val => 	Loss: 0.9427	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 92.857 	Loss: 0.8297
+[92m Client17 Val => 	Loss: 0.9592	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 67.188 	Loss: 0.9310
+[92m Client18 Val => 	Loss: 0.9476	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 62.500 	Loss: 0.9361
+[92m Client19 Val => 	Loss: 0.9033	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9346
+[92m Client20 Val => 	Loss: 0.9112	Acc: 83.636
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.8944
+[92m Client21 Val => 	Loss: 0.9257	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 85.000 	Loss: 0.9136
+[92m Client22 Val => 	Loss: 0.9112	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  33, Avg Accuracy 72.832 | Avg Loss 0.931
+[92mVal:  Round  33, Avg Accuracy 69.730 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9198
+[92m Client0 Val => 	Loss: 1.0230	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9593
+[92m Client1 Val => 	Loss: 0.9218	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9277
+[92m Client2 Val => 	Loss: 0.8772	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9141
+[92m Client3 Val => 	Loss: 1.0228	Acc: 54.545
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.0846
+[92m Client4 Val => 	Loss: 0.9717	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 84.783 	Loss: 0.9618
+[92m Client5 Val => 	Loss: 1.1336	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9216
+[92m Client6 Val => 	Loss: 0.9233	Acc: 81.967
+[91m Client7 Train => Local Epoch: 0 	Acc: 78.689 	Loss: 0.8944
+[92m Client7 Val => 	Loss: 1.0757	Acc: 40.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9294
+[92m Client8 Val => 	Loss: 0.9298	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.9121
+[92m Client9 Val => 	Loss: 0.8790	Acc: 84.375
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9342
+[92m Client10 Val => 	Loss: 0.9242	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8878
+[92m Client11 Val => 	Loss: 0.9898	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9506
+[92m Client12 Val => 	Loss: 0.9267	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8806
+[92m Client13 Val => 	Loss: 1.0638	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9058
+[92m Client14 Val => 	Loss: 0.9532	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 54.237 	Loss: 0.9935
+[92m Client15 Val => 	Loss: 1.0083	Acc: 53.125
+[91m Client16 Train => Local Epoch: 0 	Acc: 71.053 	Loss: 0.9177
+[92m Client16 Val => 	Loss: 0.9457	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9082
+[92m Client17 Val => 	Loss: 0.9231	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 78.125 	Loss: 0.9062
+[92m Client18 Val => 	Loss: 0.9703	Acc: 58.333
+[91m Client19 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9359
+[92m Client19 Val => 	Loss: 0.9083	Acc: 73.333
+[91m Client20 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9355
+[92m Client20 Val => 	Loss: 0.9561	Acc: 78.182
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9285
+[92m Client21 Val => 	Loss: 0.9455	Acc: 79.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 86.667 	Loss: 0.8999
+[92m Client22 Val => 	Loss: 1.0394	Acc: 43.478
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  34, Avg Accuracy 72.961 | Avg Loss 0.932
+[92mVal:  Round  34, Avg Accuracy 69.235 |  Avg Loss 0.950
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8121
+[92m Client0 Val => 	Loss: 1.0349	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 72.727 	Loss: 0.9066
+[92m Client1 Val => 	Loss: 0.9055	Acc: 74.286
+[91m Client2 Train => Local Epoch: 0 	Acc: 71.795 	Loss: 0.9734
+[92m Client2 Val => 	Loss: 0.8917	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.9038
+[92m Client3 Val => 	Loss: 0.8995	Acc: 86.364
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9957
+[92m Client4 Val => 	Loss: 0.9084	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 86.957 	Loss: 0.9574
+[92m Client5 Val => 	Loss: 1.1338	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.8633
+[92m Client6 Val => 	Loss: 0.9403	Acc: 83.607
+[91m Client7 Train => Local Epoch: 0 	Acc: 77.049 	Loss: 0.9138
+[92m Client7 Val => 	Loss: 1.0042	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9376
+[92m Client8 Val => 	Loss: 0.9190	Acc: 70.455
+[91m Client9 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9212
+[92m Client9 Val => 	Loss: 0.9180	Acc: 82.812
+[91m Client10 Train => Local Epoch: 0 	Acc: 68.889 	Loss: 0.8714
+[92m Client10 Val => 	Loss: 0.9180	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9248
+[92m Client11 Val => 	Loss: 0.9865	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 82.609 	Loss: 0.7485
+[92m Client12 Val => 	Loss: 0.8991	Acc: 76.316
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8853
+[92m Client13 Val => 	Loss: 0.9098	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 92.308 	Loss: 0.8785
+[92m Client14 Val => 	Loss: 0.8675	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 81.356 	Loss: 0.8968
+[92m Client15 Val => 	Loss: 0.9569	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 63.158 	Loss: 0.9663
+[92m Client16 Val => 	Loss: 0.9485	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9003
+[92m Client17 Val => 	Loss: 0.9394	Acc: 79.487
+[91m Client18 Train => Local Epoch: 0 	Acc: 68.750 	Loss: 0.9300
+[92m Client18 Val => 	Loss: 0.9562	Acc: 66.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9346
+[92m Client19 Val => 	Loss: 0.8693	Acc: 84.444
+[91m Client20 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9374
+[92m Client20 Val => 	Loss: 0.9377	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 70.833 	Loss: 0.9581
+[92m Client21 Val => 	Loss: 0.9367	Acc: 75.000
+[91m Client22 Train => Local Epoch: 0 	Acc: 85.000 	Loss: 0.9020
+[92m Client22 Val => 	Loss: 0.9409	Acc: 78.261
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  35, Avg Accuracy 73.656 | Avg Loss 0.931
+[92mVal:  Round  35, Avg Accuracy 70.816 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8328
+[92m Client0 Val => 	Loss: 1.1433	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 84.848 	Loss: 0.9257
+[92m Client1 Val => 	Loss: 0.9485	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 71.795 	Loss: 0.9452
+[92m Client2 Val => 	Loss: 0.9421	Acc: 66.667
+[91m Client3 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.9114
+[92m Client3 Val => 	Loss: 0.9732	Acc: 63.636
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.9782
+[92m Client4 Val => 	Loss: 0.9474	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 95.652 	Loss: 0.9378
+[92m Client5 Val => 	Loss: 1.1585	Acc: 6.383
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.8948
+[92m Client6 Val => 	Loss: 0.9599	Acc: 83.607
+[91m Client7 Train => Local Epoch: 0 	Acc: 80.328 	Loss: 0.9128
+[92m Client7 Val => 	Loss: 1.0226	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9132
+[92m Client8 Val => 	Loss: 0.9113	Acc: 65.909
+[91m Client9 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9479
+[92m Client9 Val => 	Loss: 0.9008	Acc: 78.125
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9226
+[92m Client10 Val => 	Loss: 0.8852	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9621
+[92m Client11 Val => 	Loss: 1.0640	Acc: 46.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9294
+[92m Client12 Val => 	Loss: 0.9015	Acc: 68.421
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8543
+[92m Client13 Val => 	Loss: 0.9038	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.8683
+[92m Client14 Val => 	Loss: 0.9468	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 61.017 	Loss: 0.9765
+[92m Client15 Val => 	Loss: 0.8894	Acc: 81.250
+[91m Client16 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9339
+[92m Client16 Val => 	Loss: 0.9488	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8657
+[92m Client17 Val => 	Loss: 0.9711	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 62.500 	Loss: 0.9419
+[92m Client18 Val => 	Loss: 0.9396	Acc: 66.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9405
+[92m Client19 Val => 	Loss: 0.9152	Acc: 75.556
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8906
+[92m Client20 Val => 	Loss: 0.9380	Acc: 85.455
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9470
+[92m Client21 Val => 	Loss: 0.9283	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 81.667 	Loss: 0.9223
+[92m Client22 Val => 	Loss: 0.9673	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  36, Avg Accuracy 73.125 | Avg Loss 0.931
+[92mVal:  Round  36, Avg Accuracy 69.910 |  Avg Loss 0.949
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8949
+[92m Client0 Val => 	Loss: 0.7380	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9548
+[92m Client1 Val => 	Loss: 0.9136	Acc: 80.000
+[91m Client2 Train => Local Epoch: 0 	Acc: 87.179 	Loss: 0.9237
+[92m Client2 Val => 	Loss: 0.9298	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9239
+[92m Client3 Val => 	Loss: 0.9418	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.2066
+[92m Client4 Val => 	Loss: 0.9346	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 86.957 	Loss: 0.9517
+[92m Client5 Val => 	Loss: 1.1473	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.9097
+[92m Client6 Val => 	Loss: 0.9469	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.9383
+[92m Client7 Val => 	Loss: 1.0147	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9473
+[92m Client8 Val => 	Loss: 0.9615	Acc: 65.909
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9543
+[92m Client9 Val => 	Loss: 0.8899	Acc: 82.812
+[91m Client10 Train => Local Epoch: 0 	Acc: 73.333 	Loss: 0.8704
+[92m Client10 Val => 	Loss: 0.8843	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9192
+[92m Client11 Val => 	Loss: 0.9453	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 47.826 	Loss: 0.9443
+[92m Client12 Val => 	Loss: 0.9058	Acc: 78.947
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8233
+[92m Client13 Val => 	Loss: 1.0069	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 53.846 	Loss: 0.9474
+[92m Client14 Val => 	Loss: 0.8969	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9317
+[92m Client15 Val => 	Loss: 0.9841	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9263
+[92m Client16 Val => 	Loss: 0.9373	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9067
+[92m Client17 Val => 	Loss: 0.9575	Acc: 69.231
+[91m Client18 Train => Local Epoch: 0 	Acc: 68.750 	Loss: 0.9247
+[92m Client18 Val => 	Loss: 0.9458	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9335
+[92m Client19 Val => 	Loss: 0.9733	Acc: 64.444
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.9287
+[92m Client20 Val => 	Loss: 0.9560	Acc: 78.182
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9495
+[92m Client21 Val => 	Loss: 0.9266	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 76.667 	Loss: 0.9519
+[92m Client22 Val => 	Loss: 0.9729	Acc: 60.870
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  37, Avg Accuracy 72.801 | Avg Loss 0.932
+[92mVal:  Round  37, Avg Accuracy 70.221 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8786
+[92m Client0 Val => 	Loss: 0.8648	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9401
+[92m Client1 Val => 	Loss: 0.9246	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9407
+[92m Client2 Val => 	Loss: 0.9106	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 64.865 	Loss: 0.9461
+[92m Client3 Val => 	Loss: 0.9779	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.6989
+[92m Client4 Val => 	Loss: 0.9998	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9468
+[92m Client5 Val => 	Loss: 1.1464	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 76.000 	Loss: 0.9297
+[92m Client6 Val => 	Loss: 0.9061	Acc: 90.164
+[91m Client7 Train => Local Epoch: 0 	Acc: 72.131 	Loss: 0.9265
+[92m Client7 Val => 	Loss: 0.8963	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9345
+[92m Client8 Val => 	Loss: 0.9099	Acc: 72.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.9489
+[92m Client9 Val => 	Loss: 0.9144	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9194
+[92m Client10 Val => 	Loss: 0.9182	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9801
+[92m Client11 Val => 	Loss: 1.0444	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9516
+[92m Client12 Val => 	Loss: 0.9209	Acc: 81.579
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9598
+[92m Client13 Val => 	Loss: 0.9359	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 38.462 	Loss: 1.0531
+[92m Client14 Val => 	Loss: 1.0200	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 62.712 	Loss: 0.9431
+[92m Client15 Val => 	Loss: 0.9418	Acc: 59.375
+[91m Client16 Train => Local Epoch: 0 	Acc: 68.421 	Loss: 0.9675
+[92m Client16 Val => 	Loss: 0.9089	Acc: 90.909
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.8849
+[92m Client17 Val => 	Loss: 0.9347	Acc: 82.051
+[91m Client18 Train => Local Epoch: 0 	Acc: 70.312 	Loss: 0.9385
+[92m Client18 Val => 	Loss: 0.8972	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 76.786 	Loss: 0.9405
+[92m Client19 Val => 	Loss: 0.9187	Acc: 80.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 92.105 	Loss: 0.9051
+[92m Client20 Val => 	Loss: 0.9439	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.8981
+[92m Client21 Val => 	Loss: 0.9386	Acc: 79.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 81.667 	Loss: 0.8996
+[92m Client22 Val => 	Loss: 0.9564	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  38, Avg Accuracy 73.129 | Avg Loss 0.931
+[92mVal:  Round  38, Avg Accuracy 70.289 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9191
+[92m Client0 Val => 	Loss: 1.0875	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 57.576 	Loss: 0.9899
+[92m Client1 Val => 	Loss: 0.9627	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9625
+[92m Client2 Val => 	Loss: 0.9297	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 62.162 	Loss: 0.9754
+[92m Client3 Val => 	Loss: 0.9145	Acc: 77.273
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0621
+[92m Client4 Val => 	Loss: 0.9777	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 95.652 	Loss: 0.9515
+[92m Client5 Val => 	Loss: 1.1531	Acc: 12.766
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.8713
+[92m Client6 Val => 	Loss: 0.9381	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.8845
+[92m Client7 Val => 	Loss: 0.9182	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9492
+[92m Client8 Val => 	Loss: 0.8622	Acc: 77.273
+[91m Client9 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.8792
+[92m Client9 Val => 	Loss: 0.9426	Acc: 75.000
+[91m Client10 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9211
+[92m Client10 Val => 	Loss: 0.8760	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9032
+[92m Client11 Val => 	Loss: 0.8725	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.8982
+[92m Client12 Val => 	Loss: 0.9573	Acc: 63.158
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7618
+[92m Client13 Val => 	Loss: 0.9888	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9637
+[92m Client14 Val => 	Loss: 0.8709	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 67.797 	Loss: 0.9342
+[92m Client15 Val => 	Loss: 0.9400	Acc: 68.750
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.8891
+[92m Client16 Val => 	Loss: 0.9344	Acc: 78.182
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8741
+[92m Client17 Val => 	Loss: 0.9383	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 76.562 	Loss: 0.8821
+[92m Client18 Val => 	Loss: 0.9799	Acc: 62.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9444
+[92m Client19 Val => 	Loss: 0.9138	Acc: 66.667
+[91m Client20 Train => Local Epoch: 0 	Acc: 78.947 	Loss: 0.9037
+[92m Client20 Val => 	Loss: 0.9118	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9292
+[92m Client21 Val => 	Loss: 0.9102	Acc: 83.333
+[91m Client22 Train => Local Epoch: 0 	Acc: 86.667 	Loss: 0.9344
+[92m Client22 Val => 	Loss: 0.9108	Acc: 82.609
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  39, Avg Accuracy 73.805 | Avg Loss 0.931
+[92mVal:  Round  39, Avg Accuracy 70.940 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8733
+[92m Client0 Val => 	Loss: 0.7059	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9281
+[92m Client1 Val => 	Loss: 0.9340	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9524
+[92m Client2 Val => 	Loss: 0.9260	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 83.784 	Loss: 0.8799
+[92m Client3 Val => 	Loss: 0.9661	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8737
+[92m Client4 Val => 	Loss: 0.9382	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9487
+[92m Client5 Val => 	Loss: 1.1275	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 88.000 	Loss: 0.8911
+[92m Client6 Val => 	Loss: 0.9469	Acc: 78.689
+[91m Client7 Train => Local Epoch: 0 	Acc: 68.852 	Loss: 0.9189
+[92m Client7 Val => 	Loss: 0.9400	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 91.071 	Loss: 0.9188
+[92m Client8 Val => 	Loss: 0.9347	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.8906
+[92m Client9 Val => 	Loss: 0.9153	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 51.111 	Loss: 0.9729
+[92m Client10 Val => 	Loss: 0.9705	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 57.778 	Loss: 0.9164
+[92m Client11 Val => 	Loss: 1.0698	Acc: 46.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 47.826 	Loss: 0.9925
+[92m Client12 Val => 	Loss: 1.0102	Acc: 50.000
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7600
+[92m Client13 Val => 	Loss: 0.9270	Acc: 80.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9175
+[92m Client14 Val => 	Loss: 0.9464	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9122
+[92m Client15 Val => 	Loss: 0.9579	Acc: 68.750
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9586
+[92m Client16 Val => 	Loss: 0.9254	Acc: 81.818
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8845
+[92m Client17 Val => 	Loss: 0.9043	Acc: 89.744
+[91m Client18 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9234
+[92m Client18 Val => 	Loss: 0.9405	Acc: 70.833
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9519
+[92m Client19 Val => 	Loss: 0.9597	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9434
+[92m Client20 Val => 	Loss: 0.9185	Acc: 76.364
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9513
+[92m Client21 Val => 	Loss: 0.9317	Acc: 75.000
+[91m Client22 Train => Local Epoch: 0 	Acc: 70.000 	Loss: 0.9711
+[92m Client22 Val => 	Loss: 0.9051	Acc: 78.261
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  40, Avg Accuracy 73.981 | Avg Loss 0.931
+[92mVal:  Round  40, Avg Accuracy 70.799 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 91.667 	Loss: 0.8887
+[92m Client0 Val => 	Loss: 0.7948	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 75.758 	Loss: 0.9583
+[92m Client1 Val => 	Loss: 0.9350	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 92.308 	Loss: 0.9031
+[92m Client2 Val => 	Loss: 0.9321	Acc: 86.111
+[91m Client3 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9328
+[92m Client3 Val => 	Loss: 0.9334	Acc: 81.818
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7671
+[92m Client4 Val => 	Loss: 0.8367	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 82.609 	Loss: 0.9655
+[92m Client5 Val => 	Loss: 1.1427	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 72.000 	Loss: 0.9242
+[92m Client6 Val => 	Loss: 0.9272	Acc: 85.246
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.8982
+[92m Client7 Val => 	Loss: 0.8869	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9197
+[92m Client8 Val => 	Loss: 0.8814	Acc: 72.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.8714
+[92m Client9 Val => 	Loss: 0.9455	Acc: 76.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 44.444 	Loss: 1.0066
+[92m Client10 Val => 	Loss: 0.9500	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.8925
+[92m Client11 Val => 	Loss: 1.1952	Acc: 26.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 65.217 	Loss: 0.8910
+[92m Client12 Val => 	Loss: 0.9455	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8585
+[92m Client13 Val => 	Loss: 0.9365	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9370
+[92m Client14 Val => 	Loss: 0.8695	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 72.881 	Loss: 0.9013
+[92m Client15 Val => 	Loss: 0.9590	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 92.105 	Loss: 0.8536
+[92m Client16 Val => 	Loss: 0.9323	Acc: 74.545
+[91m Client17 Train => Local Epoch: 0 	Acc: 92.857 	Loss: 0.9019
+[92m Client17 Val => 	Loss: 0.9689	Acc: 66.667
+[91m Client18 Train => Local Epoch: 0 	Acc: 78.125 	Loss: 0.8963
+[92m Client18 Val => 	Loss: 0.9464	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9386
+[92m Client19 Val => 	Loss: 0.8979	Acc: 73.333
+[91m Client20 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.8893
+[92m Client20 Val => 	Loss: 0.9123	Acc: 81.818
+[91m Client21 Train => Local Epoch: 0 	Acc: 89.583 	Loss: 0.8739
+[92m Client21 Val => 	Loss: 0.9807	Acc: 66.667
+[91m Client22 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9171
+[92m Client22 Val => 	Loss: 0.8997	Acc: 82.609
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  41, Avg Accuracy 73.262 | Avg Loss 0.930
+[92mVal:  Round  41, Avg Accuracy 69.883 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9241
+[92m Client0 Val => 	Loss: 0.9758	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 87.879 	Loss: 0.9243
+[92m Client1 Val => 	Loss: 0.9094	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9295
+[92m Client2 Val => 	Loss: 0.9607	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.8778
+[92m Client3 Val => 	Loss: 0.8419	Acc: 90.909
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.3898
+[92m Client4 Val => 	Loss: 0.9684	Acc: 60.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 86.957 	Loss: 0.9562
+[92m Client5 Val => 	Loss: 1.1387	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 92.000 	Loss: 0.8865
+[92m Client6 Val => 	Loss: 0.9371	Acc: 88.525
+[91m Client7 Train => Local Epoch: 0 	Acc: 73.770 	Loss: 0.9266
+[92m Client7 Val => 	Loss: 0.8894	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9524
+[92m Client8 Val => 	Loss: 0.9659	Acc: 56.818
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9490
+[92m Client9 Val => 	Loss: 0.9209	Acc: 75.000
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9056
+[92m Client10 Val => 	Loss: 0.8932	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9134
+[92m Client11 Val => 	Loss: 1.0343	Acc: 46.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9011
+[92m Client12 Val => 	Loss: 0.9406	Acc: 60.526
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8815
+[92m Client13 Val => 	Loss: 1.0189	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9349
+[92m Client14 Val => 	Loss: 0.8818	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 79.661 	Loss: 0.9020
+[92m Client15 Val => 	Loss: 1.0061	Acc: 50.000
+[91m Client16 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9365
+[92m Client16 Val => 	Loss: 0.9214	Acc: 80.000
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.8490
+[92m Client17 Val => 	Loss: 0.9675	Acc: 64.103
+[91m Client18 Train => Local Epoch: 0 	Acc: 65.625 	Loss: 0.9374
+[92m Client18 Val => 	Loss: 0.9498	Acc: 62.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 78.571 	Loss: 0.9328
+[92m Client19 Val => 	Loss: 0.9568	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 94.737 	Loss: 0.8790
+[92m Client20 Val => 	Loss: 0.9151	Acc: 87.273
+[91m Client21 Train => Local Epoch: 0 	Acc: 85.417 	Loss: 0.8635
+[92m Client21 Val => 	Loss: 0.9162	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 86.667 	Loss: 0.9092
+[92m Client22 Val => 	Loss: 0.9476	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  42, Avg Accuracy 72.254 | Avg Loss 0.932
+[92mVal:  Round  42, Avg Accuracy 68.668 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8884
+[92m Client0 Val => 	Loss: 1.0320	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9714
+[92m Client1 Val => 	Loss: 0.9791	Acc: 68.571
+[91m Client2 Train => Local Epoch: 0 	Acc: 87.179 	Loss: 0.9069
+[92m Client2 Val => 	Loss: 0.9321	Acc: 72.222
+[91m Client3 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.8851
+[92m Client3 Val => 	Loss: 0.9327	Acc: 77.273
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7152
+[92m Client4 Val => 	Loss: 0.9612	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 86.957 	Loss: 0.9419
+[92m Client5 Val => 	Loss: 1.1208	Acc: 14.894
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9429
+[92m Client6 Val => 	Loss: 0.9011	Acc: 88.525
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.9030
+[92m Client7 Val => 	Loss: 0.6975	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9216
+[92m Client8 Val => 	Loss: 0.9737	Acc: 59.091
+[91m Client9 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9435
+[92m Client9 Val => 	Loss: 0.9210	Acc: 75.000
+[91m Client10 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9037
+[92m Client10 Val => 	Loss: 0.9091	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9105
+[92m Client11 Val => 	Loss: 1.0138	Acc: 66.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 52.174 	Loss: 0.9378
+[92m Client12 Val => 	Loss: 0.9265	Acc: 71.053
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8789
+[92m Client13 Val => 	Loss: 0.8737	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9761
+[92m Client14 Val => 	Loss: 0.9601	Acc: 61.538
+[91m Client15 Train => Local Epoch: 0 	Acc: 66.102 	Loss: 0.9654
+[92m Client15 Val => 	Loss: 0.9453	Acc: 65.625
+[91m Client16 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9230
+[92m Client16 Val => 	Loss: 0.9224	Acc: 78.182
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8969
+[92m Client17 Val => 	Loss: 0.9497	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 70.312 	Loss: 0.8972
+[92m Client18 Val => 	Loss: 0.9176	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 66.071 	Loss: 0.9671
+[92m Client19 Val => 	Loss: 0.9277	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.9183
+[92m Client20 Val => 	Loss: 0.9290	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9261
+[92m Client21 Val => 	Loss: 0.9765	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 76.667 	Loss: 0.9209
+[92m Client22 Val => 	Loss: 0.9181	Acc: 82.609
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  43, Avg Accuracy 72.769 | Avg Loss 0.930
+[92mVal:  Round  43, Avg Accuracy 69.991 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8188
+[92m Client0 Val => 	Loss: 0.8134	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 57.576 	Loss: 0.9515
+[92m Client1 Val => 	Loss: 0.8932	Acc: 71.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9171
+[92m Client2 Val => 	Loss: 0.9290	Acc: 83.333
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9135
+[92m Client3 Val => 	Loss: 0.9107	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.0800
+[92m Client4 Val => 	Loss: 0.9029	Acc: 80.000
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9597
+[92m Client5 Val => 	Loss: 1.1375	Acc: 6.383
+[91m Client6 Train => Local Epoch: 0 	Acc: 64.000 	Loss: 1.0167
+[92m Client6 Val => 	Loss: 0.9506	Acc: 72.131
+[91m Client7 Train => Local Epoch: 0 	Acc: 75.410 	Loss: 0.9230
+[92m Client7 Val => 	Loss: 1.0324	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9257
+[92m Client8 Val => 	Loss: 0.9359	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.8932
+[92m Client9 Val => 	Loss: 0.8997	Acc: 82.812
+[91m Client10 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9250
+[92m Client10 Val => 	Loss: 0.9504	Acc: 60.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.8757
+[92m Client11 Val => 	Loss: 1.0921	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.8635
+[92m Client12 Val => 	Loss: 1.0215	Acc: 50.000
+[91m Client13 Train => Local Epoch: 0 	Acc: 25.000 	Loss: 1.1634
+[92m Client13 Val => 	Loss: 0.9481	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9545
+[92m Client14 Val => 	Loss: 0.8222	Acc: 84.615
+[91m Client15 Train => Local Epoch: 0 	Acc: 64.407 	Loss: 0.9463
+[92m Client15 Val => 	Loss: 0.9470	Acc: 71.875
+[91m Client16 Train => Local Epoch: 0 	Acc: 68.421 	Loss: 0.9560
+[92m Client16 Val => 	Loss: 0.9273	Acc: 74.545
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9237
+[92m Client17 Val => 	Loss: 0.9422	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 79.688 	Loss: 0.8751
+[92m Client18 Val => 	Loss: 0.9014	Acc: 87.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9152
+[92m Client19 Val => 	Loss: 0.9240	Acc: 77.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 92.105 	Loss: 0.8619
+[92m Client20 Val => 	Loss: 0.9187	Acc: 76.364
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9318
+[92m Client21 Val => 	Loss: 0.9602	Acc: 70.833
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9738
+[92m Client22 Val => 	Loss: 0.9246	Acc: 78.261
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  44, Avg Accuracy 72.432 | Avg Loss 0.932
+[92mVal:  Round  44, Avg Accuracy 69.155 |  Avg Loss 0.946
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9429
+[92m Client0 Val => 	Loss: 1.1119	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 57.576 	Loss: 1.0045
+[92m Client1 Val => 	Loss: 0.9247	Acc: 74.286
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9304
+[92m Client2 Val => 	Loss: 0.9466	Acc: 75.000
+[91m Client3 Train => Local Epoch: 0 	Acc: 86.486 	Loss: 0.9004
+[92m Client3 Val => 	Loss: 0.9596	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.1411
+[92m Client4 Val => 	Loss: 0.9790	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9409
+[92m Client5 Val => 	Loss: 1.1593	Acc: 8.511
+[91m Client6 Train => Local Epoch: 0 	Acc: 56.000 	Loss: 1.0150
+[92m Client6 Val => 	Loss: 0.9574	Acc: 75.410
+[91m Client7 Train => Local Epoch: 0 	Acc: 77.049 	Loss: 0.9188
+[92m Client7 Val => 	Loss: 1.0354	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 87.500 	Loss: 0.9226
+[92m Client8 Val => 	Loss: 0.9162	Acc: 63.636
+[91m Client9 Train => Local Epoch: 0 	Acc: 64.865 	Loss: 0.9277
+[92m Client9 Val => 	Loss: 0.8966	Acc: 82.812
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9262
+[92m Client10 Val => 	Loss: 0.9217	Acc: 66.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 53.333 	Loss: 0.9529
+[92m Client11 Val => 	Loss: 1.1071	Acc: 46.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 60.870 	Loss: 0.9491
+[92m Client12 Val => 	Loss: 0.9797	Acc: 55.263
+[91m Client13 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8189
+[92m Client13 Val => 	Loss: 0.9714	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 46.154 	Loss: 1.0078
+[92m Client14 Val => 	Loss: 0.9518	Acc: 69.231
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9333
+[92m Client15 Val => 	Loss: 0.9370	Acc: 71.875
+[91m Client16 Train => Local Epoch: 0 	Acc: 68.421 	Loss: 0.9731
+[92m Client16 Val => 	Loss: 0.9445	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8943
+[92m Client17 Val => 	Loss: 1.0013	Acc: 58.974
+[91m Client18 Train => Local Epoch: 0 	Acc: 76.562 	Loss: 0.9089
+[92m Client18 Val => 	Loss: 0.9457	Acc: 75.000
+[91m Client19 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9362
+[92m Client19 Val => 	Loss: 0.9250	Acc: 68.889
+[91m Client20 Train => Local Epoch: 0 	Acc: 71.053 	Loss: 0.9222
+[92m Client20 Val => 	Loss: 0.9170	Acc: 76.364
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9297
+[92m Client21 Val => 	Loss: 0.9133	Acc: 87.500
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9303
+[92m Client22 Val => 	Loss: 0.9755	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  45, Avg Accuracy 72.838 | Avg Loss 0.932
+[92mVal:  Round  45, Avg Accuracy 69.473 |  Avg Loss 0.950
+[91m Client0 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 0.9960
+[92m Client0 Val => 	Loss: 1.0174	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9465
+[92m Client1 Val => 	Loss: 0.9555	Acc: 74.286
+[91m Client2 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.9216
+[92m Client2 Val => 	Loss: 0.9790	Acc: 69.444
+[91m Client3 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9012
+[92m Client3 Val => 	Loss: 0.9314	Acc: 72.727
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.1829
+[92m Client4 Val => 	Loss: 0.9245	Acc: 73.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 91.304 	Loss: 0.9544
+[92m Client5 Val => 	Loss: 1.1277	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 72.000 	Loss: 0.9017
+[92m Client6 Val => 	Loss: 0.9266	Acc: 83.607
+[91m Client7 Train => Local Epoch: 0 	Acc: 70.492 	Loss: 0.9272
+[92m Client7 Val => 	Loss: 0.8678	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9697
+[92m Client8 Val => 	Loss: 0.9156	Acc: 70.455
+[91m Client9 Train => Local Epoch: 0 	Acc: 81.081 	Loss: 0.9509
+[92m Client9 Val => 	Loss: 0.9401	Acc: 75.000
+[91m Client10 Train => Local Epoch: 0 	Acc: 71.111 	Loss: 0.8885
+[92m Client10 Val => 	Loss: 0.9653	Acc: 73.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.9113
+[92m Client11 Val => 	Loss: 0.9989	Acc: 60.000
+[91m Client12 Train => Local Epoch: 0 	Acc: 52.174 	Loss: 0.9860
+[92m Client12 Val => 	Loss: 0.9694	Acc: 63.158
+[91m Client13 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8813
+[92m Client13 Val => 	Loss: 0.9933	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 69.231 	Loss: 0.9715
+[92m Client14 Val => 	Loss: 0.9270	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 71.186 	Loss: 0.9451
+[92m Client15 Val => 	Loss: 0.9703	Acc: 62.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8908
+[92m Client16 Val => 	Loss: 0.8951	Acc: 90.909
+[91m Client17 Train => Local Epoch: 0 	Acc: 89.286 	Loss: 0.8509
+[92m Client17 Val => 	Loss: 0.9535	Acc: 71.795
+[91m Client18 Train => Local Epoch: 0 	Acc: 60.938 	Loss: 0.9420
+[92m Client18 Val => 	Loss: 0.9319	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9403
+[92m Client19 Val => 	Loss: 0.9567	Acc: 66.667
+[91m Client20 Train => Local Epoch: 0 	Acc: 92.105 	Loss: 0.8704
+[92m Client20 Val => 	Loss: 0.9021	Acc: 85.455
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9430
+[92m Client21 Val => 	Loss: 0.8934	Acc: 81.250
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9455
+[92m Client22 Val => 	Loss: 0.9683	Acc: 65.217
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  46, Avg Accuracy 72.778 | Avg Loss 0.932
+[92mVal:  Round  46, Avg Accuracy 70.646 |  Avg Loss 0.948
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.8665
+[92m Client0 Val => 	Loss: 0.9204	Acc: 66.667
+[91m Client1 Train => Local Epoch: 0 	Acc: 69.697 	Loss: 0.9534
+[92m Client1 Val => 	Loss: 0.9508	Acc: 62.857
+[91m Client2 Train => Local Epoch: 0 	Acc: 89.744 	Loss: 0.8984
+[92m Client2 Val => 	Loss: 0.9312	Acc: 86.111
+[91m Client3 Train => Local Epoch: 0 	Acc: 78.378 	Loss: 0.9334
+[92m Client3 Val => 	Loss: 0.9329	Acc: 68.182
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 1.0337
+[92m Client4 Val => 	Loss: 0.9032	Acc: 66.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 78.261 	Loss: 0.9752
+[92m Client5 Val => 	Loss: 1.1373	Acc: 14.894
+[91m Client6 Train => Local Epoch: 0 	Acc: 92.000 	Loss: 0.8972
+[92m Client6 Val => 	Loss: 0.9703	Acc: 73.770
+[91m Client7 Train => Local Epoch: 0 	Acc: 73.770 	Loss: 0.9199
+[92m Client7 Val => 	Loss: 0.9209	Acc: 80.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 80.357 	Loss: 0.9431
+[92m Client8 Val => 	Loss: 0.9477	Acc: 59.091
+[91m Client9 Train => Local Epoch: 0 	Acc: 64.865 	Loss: 0.9523
+[92m Client9 Val => 	Loss: 0.8915	Acc: 81.250
+[91m Client10 Train => Local Epoch: 0 	Acc: 55.556 	Loss: 0.9424
+[92m Client10 Val => 	Loss: 0.9219	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.8831
+[92m Client11 Val => 	Loss: 1.0325	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9376
+[92m Client12 Val => 	Loss: 0.9379	Acc: 65.789
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 0.9254
+[92m Client13 Val => 	Loss: 0.9723	Acc: 70.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 76.923 	Loss: 0.9278
+[92m Client14 Val => 	Loss: 0.9162	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 62.712 	Loss: 0.9574
+[92m Client15 Val => 	Loss: 0.8622	Acc: 78.125
+[91m Client16 Train => Local Epoch: 0 	Acc: 68.421 	Loss: 0.9713
+[92m Client16 Val => 	Loss: 0.9654	Acc: 81.818
+[91m Client17 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9056
+[92m Client17 Val => 	Loss: 0.9611	Acc: 66.667
+[91m Client18 Train => Local Epoch: 0 	Acc: 76.562 	Loss: 0.9056
+[92m Client18 Val => 	Loss: 0.9562	Acc: 79.167
+[91m Client19 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9606
+[92m Client19 Val => 	Loss: 0.9397	Acc: 71.111
+[91m Client20 Train => Local Epoch: 0 	Acc: 76.316 	Loss: 0.9322
+[92m Client20 Val => 	Loss: 0.9287	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9346
+[92m Client21 Val => 	Loss: 0.9466	Acc: 72.917
+[91m Client22 Train => Local Epoch: 0 	Acc: 71.667 	Loss: 0.9526
+[92m Client22 Val => 	Loss: 0.8857	Acc: 69.565
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  47, Avg Accuracy 73.987 | Avg Loss 0.931
+[92mVal:  Round  47, Avg Accuracy 70.686 |  Avg Loss 0.947
+[91m Client0 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.8628
+[92m Client0 Val => 	Loss: 0.8218	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 63.636 	Loss: 0.9656
+[92m Client1 Val => 	Loss: 0.9442	Acc: 65.714
+[91m Client2 Train => Local Epoch: 0 	Acc: 82.051 	Loss: 0.9358
+[92m Client2 Val => 	Loss: 0.9109	Acc: 80.556
+[91m Client3 Train => Local Epoch: 0 	Acc: 67.568 	Loss: 0.9370
+[92m Client3 Val => 	Loss: 0.8609	Acc: 90.909
+[91m Client4 Train => Local Epoch: 0 	Acc: 0.000 	Loss: 1.2165
+[92m Client4 Val => 	Loss: 1.0059	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 93.478 	Loss: 0.9464
+[92m Client5 Val => 	Loss: 1.1448	Acc: 17.021
+[91m Client6 Train => Local Epoch: 0 	Acc: 84.000 	Loss: 0.8675
+[92m Client6 Val => 	Loss: 0.9521	Acc: 77.049
+[91m Client7 Train => Local Epoch: 0 	Acc: 77.049 	Loss: 0.8916
+[92m Client7 Val => 	Loss: 0.8456	Acc: 60.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9318
+[92m Client8 Val => 	Loss: 0.8799	Acc: 75.000
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9740
+[92m Client9 Val => 	Loss: 0.9349	Acc: 79.688
+[91m Client10 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.8926
+[92m Client10 Val => 	Loss: 0.9079	Acc: 80.000
+[91m Client11 Train => Local Epoch: 0 	Acc: 71.111 	Loss: 0.8366
+[92m Client11 Val => 	Loss: 0.9379	Acc: 73.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 56.522 	Loss: 0.9537
+[92m Client12 Val => 	Loss: 0.9467	Acc: 60.526
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 0.9909
+[92m Client13 Val => 	Loss: 0.9235	Acc: 90.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 84.615 	Loss: 0.8873
+[92m Client14 Val => 	Loss: 0.8910	Acc: 92.308
+[91m Client15 Train => Local Epoch: 0 	Acc: 76.271 	Loss: 0.9279
+[92m Client15 Val => 	Loss: 0.9059	Acc: 78.125
+[91m Client16 Train => Local Epoch: 0 	Acc: 81.579 	Loss: 0.9076
+[92m Client16 Val => 	Loss: 0.9372	Acc: 76.364
+[91m Client17 Train => Local Epoch: 0 	Acc: 71.429 	Loss: 0.9470
+[92m Client17 Val => 	Loss: 0.9621	Acc: 74.359
+[91m Client18 Train => Local Epoch: 0 	Acc: 68.750 	Loss: 0.9299
+[92m Client18 Val => 	Loss: 0.9759	Acc: 62.500
+[91m Client19 Train => Local Epoch: 0 	Acc: 73.214 	Loss: 0.9553
+[92m Client19 Val => 	Loss: 0.9212	Acc: 77.778
+[91m Client20 Train => Local Epoch: 0 	Acc: 86.842 	Loss: 0.8669
+[92m Client20 Val => 	Loss: 0.9365	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9290
+[92m Client21 Val => 	Loss: 0.9408	Acc: 79.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 86.667 	Loss: 0.9292
+[92m Client22 Val => 	Loss: 0.9221	Acc: 73.913
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  48, Avg Accuracy 73.047 | Avg Loss 0.932
+[92mVal:  Round  48, Avg Accuracy 70.973 |  Avg Loss 0.944
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9581
+[92m Client0 Val => 	Loss: 0.9474	Acc: 100.000
+[91m Client1 Train => Local Epoch: 0 	Acc: 81.818 	Loss: 0.9280
+[92m Client1 Val => 	Loss: 0.8923	Acc: 77.143
+[91m Client2 Train => Local Epoch: 0 	Acc: 79.487 	Loss: 0.9344
+[92m Client2 Val => 	Loss: 0.9195	Acc: 77.778
+[91m Client3 Train => Local Epoch: 0 	Acc: 75.676 	Loss: 0.9075
+[92m Client3 Val => 	Loss: 0.9165	Acc: 72.727
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.7944
+[92m Client4 Val => 	Loss: 0.8877	Acc: 86.667
+[91m Client5 Train => Local Epoch: 0 	Acc: 95.652 	Loss: 0.9505
+[92m Client5 Val => 	Loss: 1.1668	Acc: 10.638
+[91m Client6 Train => Local Epoch: 0 	Acc: 92.000 	Loss: 0.8365
+[92m Client6 Val => 	Loss: 0.9449	Acc: 80.328
+[91m Client7 Train => Local Epoch: 0 	Acc: 68.852 	Loss: 0.9189
+[92m Client7 Val => 	Loss: 0.8758	Acc: 100.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 85.714 	Loss: 0.9114
+[92m Client8 Val => 	Loss: 0.9040	Acc: 70.455
+[91m Client9 Train => Local Epoch: 0 	Acc: 70.270 	Loss: 0.9348
+[92m Client9 Val => 	Loss: 0.8959	Acc: 82.812
+[91m Client10 Train => Local Epoch: 0 	Acc: 64.444 	Loss: 0.9129
+[92m Client10 Val => 	Loss: 1.0314	Acc: 53.333
+[91m Client11 Train => Local Epoch: 0 	Acc: 62.222 	Loss: 0.8903
+[92m Client11 Val => 	Loss: 0.8750	Acc: 86.667
+[91m Client12 Train => Local Epoch: 0 	Acc: 52.174 	Loss: 0.9479
+[92m Client12 Val => 	Loss: 0.9557	Acc: 63.158
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 0.9894
+[92m Client13 Val => 	Loss: 0.9816	Acc: 60.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 53.846 	Loss: 0.9706
+[92m Client14 Val => 	Loss: 0.9463	Acc: 76.923
+[91m Client15 Train => Local Epoch: 0 	Acc: 74.576 	Loss: 0.9156
+[92m Client15 Val => 	Loss: 0.9118	Acc: 78.125
+[91m Client16 Train => Local Epoch: 0 	Acc: 84.211 	Loss: 0.9231
+[92m Client16 Val => 	Loss: 0.9096	Acc: 81.818
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.8762
+[92m Client17 Val => 	Loss: 0.9388	Acc: 76.923
+[91m Client18 Train => Local Epoch: 0 	Acc: 70.312 	Loss: 0.9323
+[92m Client18 Val => 	Loss: 0.9526	Acc: 66.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.8906
+[92m Client19 Val => 	Loss: 0.9204	Acc: 80.000
+[91m Client20 Train => Local Epoch: 0 	Acc: 73.684 	Loss: 0.9555
+[92m Client20 Val => 	Loss: 0.9608	Acc: 80.000
+[91m Client21 Train => Local Epoch: 0 	Acc: 81.250 	Loss: 0.9294
+[92m Client21 Val => 	Loss: 0.9252	Acc: 77.083
+[91m Client22 Train => Local Epoch: 0 	Acc: 75.000 	Loss: 0.9650
+[92m Client22 Val => 	Loss: 0.9261	Acc: 78.261
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  71.17678238768012
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round  49, Avg Accuracy 73.562 | Avg Loss 0.931
+[92mVal:  Round  49, Avg Accuracy 71.177 |  Avg Loss 0.946
+[92mTraining and Evaluation completed!
+[92mTotal time taken is 0.6643067995707194 mins
+[92mMax validation accuracy of unique client is:  81.30681762695312

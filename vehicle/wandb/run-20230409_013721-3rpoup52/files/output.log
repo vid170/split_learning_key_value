@@ -1,0 +1,15 @@
+LinearModel(
+  (linear): Linear(in_features=1804, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "main.py", line 247, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 53, in train
+    labels =  self.train_labels[idx].to(self.device)
+AttributeError: 'numpy.float64' object has no attribute 'to'
+Traceback (most recent call last):
+  File "main.py", line 247, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 53, in train
+    labels =  self.train_labels[idx].to(self.device)
+AttributeError: 'numpy.float64' object has no attribute 'to'

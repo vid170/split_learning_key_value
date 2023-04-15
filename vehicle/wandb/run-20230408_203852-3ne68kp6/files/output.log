@@ -1,0 +1,11 @@
+LinearModel(
+  (linear): Linear(in_features=1804, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "main.py", line 241, in <module>
+    for idx in num_clients:
+NameError: name 'num_clients' is not defined
+Traceback (most recent call last):
+  File "main.py", line 241, in <module>
+    for idx in num_clients:
+NameError: name 'num_clients' is not defined

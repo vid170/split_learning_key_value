@@ -1,0 +1,15 @@
+LinearModel(
+  (linear): Linear(in_features=1804, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "main.py", line 245, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 48, in train
+    for batch_idx, (images, labels) in enumerate(self.ldr_train):
+ValueError: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "main.py", line 245, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 48, in train
+    for batch_idx, (images, labels) in enumerate(self.ldr_train):
+ValueError: too many values to unpack (expected 2)

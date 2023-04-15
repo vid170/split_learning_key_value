@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 212, in <module>
+    input_shape=dataset['x_train'].shape[0]
+AttributeError: 'list' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "main.py", line 212, in <module>
+    input_shape=dataset['x_train'].shape[0]
+AttributeError: 'list' object has no attribute 'shape'

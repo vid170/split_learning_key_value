@@ -1,0 +1,181 @@
+2023-04-09 01:38:05,162 INFO    StreamThr :1173352 [internal.py:wandb_internal():88] W&B internal server running at pid: 1173352, started at: 2023-04-09 01:38:05.161068
+2023-04-09 01:38:05,165 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: status
+2023-04-09 01:38:05,167 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: status
+2023-04-09 01:38:05,170 DEBUG   SenderThread:1173352 [sender.py:send():303] send: header
+2023-04-09 01:38:05,170 INFO    WriterThread:1173352 [datastore.py:open_for_write():75] open: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/run-1itajhp6.wandb
+2023-04-09 01:38:05,186 DEBUG   SenderThread:1173352 [sender.py:send():303] send: run
+2023-04-09 01:38:06,396 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: check_version
+2023-04-09 01:38:06,397 INFO    SenderThread:1173352 [dir_watcher.py:__init__():216] watching files in: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files
+2023-04-09 01:38:06,397 INFO    SenderThread:1173352 [sender.py:_start_run_threads():928] run started: 1itajhp6 with start time 1680984485.155693
+2023-04-09 01:38:06,397 DEBUG   SenderThread:1173352 [sender.py:send():303] send: summary
+2023-04-09 01:38:06,397 INFO    SenderThread:1173352 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-04-09 01:38:06,398 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: check_version
+2023-04-09 01:38:06,659 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: run_start
+2023-04-09 01:38:06,686 DEBUG   HandlerThread:1173352 [system_info.py:__init__():31] System info init
+2023-04-09 01:38:06,686 DEBUG   HandlerThread:1173352 [system_info.py:__init__():46] System info init done
+2023-04-09 01:38:06,686 INFO    HandlerThread:1173352 [system_monitor.py:start():150] Starting system monitor
+2023-04-09 01:38:06,687 INFO    SystemMonitor:1173352 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-09 01:38:06,687 INFO    HandlerThread:1173352 [system_monitor.py:probe():168] Collecting system info
+2023-04-09 01:38:06,688 INFO    SystemMonitor:1173352 [interfaces.py:start():168] Started cpu
+2023-04-09 01:38:06,688 INFO    SystemMonitor:1173352 [interfaces.py:start():168] Started disk
+2023-04-09 01:38:06,689 INFO    SystemMonitor:1173352 [interfaces.py:start():168] Started gpu
+2023-04-09 01:38:06,690 INFO    SystemMonitor:1173352 [interfaces.py:start():168] Started memory
+2023-04-09 01:38:06,692 INFO    SystemMonitor:1173352 [interfaces.py:start():168] Started network
+2023-04-09 01:38:07,316 DEBUG   HandlerThread:1173352 [system_info.py:probe():195] Probing system
+2023-04-09 01:38:07,325 DEBUG   HandlerThread:1173352 [system_info.py:_probe_git():180] Probing git
+2023-04-09 01:38:07,384 DEBUG   HandlerThread:1173352 [system_info.py:_probe_git():188] Probing git done
+2023-04-09 01:38:07,384 DEBUG   HandlerThread:1173352 [system_info.py:probe():241] Probing system done
+2023-04-09 01:38:07,384 DEBUG   HandlerThread:1173352 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-69-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-04-08T20:08:07.317098', 'startedAt': '2023-04-08T20:08:05.141933', 'docker': None, 'cuda': None, 'args': ('--wandb_uid', 'prarabdh-10', '--wandb_project', 'pfsl'), 'state': 'running', 'program': 'main.py', 'codePath': 'vehicle/main.py', 'git': {'remote': 'https://github.com/mnswdhw/priv_SLR.git', 'commit': 'ef8732dd7d8a5a58a39c092da1d78746bbe7450d'}, 'email': 'prarabdh.10@gmail.com', 'root': '/home/prarabdh/SplitLearning/Software_exp/priv_SLR', 'host': 'vishwesh-SS400TA-55', 'username': 'prarabdh', 'executable': '/usr/bin/python3', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1044.5012187500001, 'min': 1000.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 1039.589, 'min': 1000.0, 'max': 3900.0}, {'current': 1167.691, 'min': 1000.0, 'max': 3900.0}, {'current': 1033.524, 'min': 1000.0, 'max': 3900.0}, {'current': 1222.5, 'min': 1000.0, 'max': 3900.0}, {'current': 1016.579, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.619, 'min': 1000.0, 'max': 3900.0}, {'current': 1004.552, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.026, 'min': 1000.0, 'max': 3900.0}, {'current': 1070.934, 'min': 1000.0, 'max': 3900.0}, {'current': 1028.178, 'min': 1000.0, 'max': 3900.0}, {'current': 1531.25, 'min': 1000.0, 'max': 3900.0}, {'current': 1034.506, 'min': 1000.0, 'max': 3900.0}, {'current': 1035.334, 'min': 1000.0, 'max': 3900.0}, {'current': 1027.826, 'min': 1000.0, 'max': 3900.0}, {'current': 1538.776, 'min': 1000.0, 'max': 3900.0}, {'current': 1283.705, 'min': 1000.0, 'max': 3900.0}, {'current': 1084.368, 'min': 1000.0, 'max': 3900.0}, {'current': 1206.702, 'min': 1000.0, 'max': 3900.0}, {'current': 1044.206, 'min': 1000.0, 'max': 3900.0}, {'current': 1227.425, 'min': 1000.0, 'max': 3900.0}, {'current': 1014.806, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.059, 'min': 1000.0, 'max': 3900.0}, {'current': 1001.062, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.175, 'min': 1000.0, 'max': 3900.0}, {'current': 1004.181, 'min': 1000.0, 'max': 3900.0}, {'current': 1078.106, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.163, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.576, 'min': 1000.0, 'max': 3900.0}, {'current': 1007.333, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.82, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.2, 'min': 1000.0, 'max': 3900.0}, {'current': 1000.071, 'min': 1000.0, 'max': 3900.0}], 'disk': {'total': 915.3232879638672, 'used': 838.9179534912109}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 62.464447021484375}}
+2023-04-09 01:38:07,384 INFO    HandlerThread:1173352 [system_monitor.py:probe():178] Finished collecting system info
+2023-04-09 01:38:07,384 INFO    HandlerThread:1173352 [system_monitor.py:probe():181] Publishing system info
+2023-04-09 01:38:07,384 DEBUG   HandlerThread:1173352 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-09 01:38:07,385 DEBUG   HandlerThread:1173352 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-09 01:38:07,385 INFO    HandlerThread:1173352 [system_monitor.py:probe():183] Finished publishing system info
+2023-04-09 01:38:07,389 DEBUG   SenderThread:1173352 [sender.py:send():303] send: files
+2023-04-09 01:38:07,389 INFO    SenderThread:1173352 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-04-09 01:38:07,400 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_created():275] file/dir created: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/wandb-metadata.json
+2023-04-09 01:38:07,401 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_created():275] file/dir created: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/wandb-summary.json
+2023-04-09 01:38:07,401 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_created():275] file/dir created: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/requirements.txt
+2023-04-09 01:38:07,402 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: stop_status
+2023-04-09 01:38:07,404 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: stop_status
+2023-04-09 01:38:07,917 DEBUG   SenderThread:1173352 [sender.py:send():303] send: telemetry
+2023-04-09 01:38:07,918 DEBUG   SenderThread:1173352 [sender.py:send():303] send: telemetry
+2023-04-09 01:38:07,919 DEBUG   SenderThread:1173352 [sender.py:send():303] send: run
+2023-04-09 01:38:08,397 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/config.yaml
+2023-04-09 01:38:08,457 INFO    SenderThread:1173352 [sender.py:send_run():812] updated run: 1itajhp6
+2023-04-09 01:38:08,457 DEBUG   SenderThread:1173352 [sender.py:send():303] send: telemetry
+2023-04-09 01:38:08,457 DEBUG   SenderThread:1173352 [sender.py:send():303] send: config
+2023-04-09 01:38:08,457 DEBUG   SenderThread:1173352 [sender.py:send():303] send: config
+2023-04-09 01:38:08,457 DEBUG   SenderThread:1173352 [sender.py:send():303] send: config
+2023-04-09 01:38:08,458 DEBUG   SenderThread:1173352 [sender.py:send():303] send: config
+2023-04-09 01:38:08,458 DEBUG   SenderThread:1173352 [sender.py:send():303] send: config
+2023-04-09 01:38:08,458 DEBUG   SenderThread:1173352 [sender.py:send():303] send: config
+2023-04-09 01:38:08,662 INFO    Thread-16 :1173352 [upload_job.py:push():143] Uploaded file /tmp/tmpilwkeyx9wandb/2kpecddc-wandb-metadata.json
+2023-04-09 01:38:08,735 DEBUG   SenderThread:1173352 [sender.py:send():303] send: exit
+2023-04-09 01:38:08,736 INFO    SenderThread:1173352 [sender.py:send_exit():442] handling exit code: 1
+2023-04-09 01:38:08,736 INFO    SenderThread:1173352 [sender.py:send_exit():444] handling runtime: 2
+2023-04-09 01:38:08,736 INFO    SenderThread:1173352 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-04-09 01:38:08,736 INFO    SenderThread:1173352 [sender.py:send_exit():450] send defer
+2023-04-09 01:38:08,737 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:08,737 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 0
+2023-04-09 01:38:08,737 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:08,737 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-04-09 01:38:08,737 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 1
+2023-04-09 01:38:08,738 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:08,738 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 1
+2023-04-09 01:38:08,738 INFO    HandlerThread:1173352 [system_monitor.py:finish():160] Stopping system monitor
+2023-04-09 01:38:08,738 DEBUG   SystemMonitor:1173352 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-09 01:38:08,739 DEBUG   SystemMonitor:1173352 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-09 01:38:08,739 DEBUG   SystemMonitor:1173352 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-09 01:38:08,741 INFO    HandlerThread:1173352 [interfaces.py:finish():173] Joined cpu
+2023-04-09 01:38:08,741 INFO    HandlerThread:1173352 [interfaces.py:finish():173] Joined disk
+2023-04-09 01:38:08,828 INFO    HandlerThread:1173352 [interfaces.py:finish():173] Joined gpu
+2023-04-09 01:38:08,828 INFO    HandlerThread:1173352 [interfaces.py:finish():173] Joined memory
+2023-04-09 01:38:08,828 INFO    HandlerThread:1173352 [interfaces.py:finish():173] Joined network
+2023-04-09 01:38:08,829 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:08,829 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-04-09 01:38:08,829 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 2
+2023-04-09 01:38:08,829 DEBUG   SenderThread:1173352 [sender.py:send():303] send: stats
+2023-04-09 01:38:08,830 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:08,831 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 2
+2023-04-09 01:38:08,831 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:08,831 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-04-09 01:38:08,831 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 3
+2023-04-09 01:38:08,832 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:08,832 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 3
+2023-04-09 01:38:08,832 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:08,832 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-04-09 01:38:08,832 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 4
+2023-04-09 01:38:08,833 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:08,833 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 4
+2023-04-09 01:38:08,834 DEBUG   SenderThread:1173352 [sender.py:send():303] send: summary
+2023-04-09 01:38:08,834 INFO    SenderThread:1173352 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-04-09 01:38:08,835 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:08,835 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-04-09 01:38:08,835 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 5
+2023-04-09 01:38:08,835 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:08,835 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 5
+2023-04-09 01:38:08,836 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:08,836 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-04-09 01:38:09,391 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 6
+2023-04-09 01:38:09,392 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:09,392 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 6
+2023-04-09 01:38:09,392 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:09,392 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-04-09 01:38:09,398 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/wandb-summary.json
+2023-04-09 01:38:09,398 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/config.yaml
+2023-04-09 01:38:09,398 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_created():275] file/dir created: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/output.log
+2023-04-09 01:38:09,736 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:10,732 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 7
+2023-04-09 01:38:10,732 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:10,733 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:10,733 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 7
+2023-04-09 01:38:10,734 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:10,734 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-04-09 01:38:10,734 INFO    SenderThread:1173352 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-04-09 01:38:10,737 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:11,399 INFO    Thread-13 :1173352 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/output.log
+2023-04-09 01:38:11,400 INFO    SenderThread:1173352 [dir_watcher.py:finish():392] scan: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files
+2023-04-09 01:38:11,400 INFO    SenderThread:1173352 [dir_watcher.py:finish():406] scan save: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/wandb-metadata.json wandb-metadata.json
+2023-04-09 01:38:11,400 INFO    SenderThread:1173352 [dir_watcher.py:finish():406] scan save: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/requirements.txt requirements.txt
+2023-04-09 01:38:11,401 INFO    SenderThread:1173352 [dir_watcher.py:finish():406] scan save: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/wandb-summary.json wandb-summary.json
+2023-04-09 01:38:11,401 INFO    SenderThread:1173352 [dir_watcher.py:finish():406] scan save: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/output.log output.log
+2023-04-09 01:38:11,402 INFO    SenderThread:1173352 [dir_watcher.py:finish():406] scan save: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/config.yaml config.yaml
+2023-04-09 01:38:11,407 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 8
+2023-04-09 01:38:11,407 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:11,408 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:11,409 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 8
+2023-04-09 01:38:11,414 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:11,415 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-04-09 01:38:11,415 INFO    SenderThread:1173352 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-09 01:38:11,738 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:11,739 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:12,708 INFO    Thread-17 :1173352 [upload_job.py:push():143] Uploaded file /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/requirements.txt
+2023-04-09 01:38:12,711 INFO    Thread-19 :1173352 [upload_job.py:push():143] Uploaded file /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/output.log
+2023-04-09 01:38:12,715 INFO    Thread-18 :1173352 [upload_job.py:push():143] Uploaded file /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/wandb-summary.json
+2023-04-09 01:38:12,731 INFO    Thread-20 :1173352 [upload_job.py:push():143] Uploaded file /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/files/config.yaml
+2023-04-09 01:38:12,739 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:12,740 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:12,932 INFO    Thread-12 :1173352 [sender.py:transition_state():463] send defer: 9
+2023-04-09 01:38:12,933 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:12,933 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 9
+2023-04-09 01:38:12,934 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:12,934 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-04-09 01:38:12,934 INFO    SenderThread:1173352 [file_pusher.py:join():173] waiting for file pusher
+2023-04-09 01:38:12,934 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 10
+2023-04-09 01:38:12,935 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:12,935 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 10
+2023-04-09 01:38:12,935 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:12,936 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-04-09 01:38:13,740 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:13,895 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 11
+2023-04-09 01:38:13,896 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:13,896 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:13,897 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 11
+2023-04-09 01:38:13,897 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:13,897 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-04-09 01:38:13,898 INFO    SenderThread:1173352 [sender.py:transition_state():463] send defer: 12
+2023-04-09 01:38:13,898 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: defer
+2023-04-09 01:38:13,899 DEBUG   SenderThread:1173352 [sender.py:send():303] send: final
+2023-04-09 01:38:13,899 INFO    HandlerThread:1173352 [handler.py:handle_request_defer():162] handle defer: 12
+2023-04-09 01:38:13,899 DEBUG   SenderThread:1173352 [sender.py:send():303] send: footer
+2023-04-09 01:38:13,899 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: defer
+2023-04-09 01:38:13,899 INFO    SenderThread:1173352 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-04-09 01:38:13,901 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:13,901 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:13,903 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: poll_exit
+2023-04-09 01:38:13,903 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: poll_exit
+2023-04-09 01:38:13,904 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: server_info
+2023-04-09 01:38:13,904 DEBUG   SenderThread:1173352 [sender.py:send_request():317] send_request: server_info
+2023-04-09 01:38:13,908 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: get_summary
+2023-04-09 01:38:13,908 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: sampled_history
+2023-04-09 01:38:14,921 INFO    MainThread:1173352 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-04-09 01:38:14,921 INFO    MainThread:1173352 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-04-09 01:38:14,921 INFO    MainThread:1173352 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-04-09 01:38:14,922 DEBUG   HandlerThread:1173352 [handler.py:handle_request():139] handle_request: shutdown
+2023-04-09 01:38:14,923 INFO    HandlerThread:1173352 [handler.py:finish():814] shutting down handler
+2023-04-09 01:38:15,899 INFO    WriterThread:1173352 [datastore.py:close():279] close: /home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/wandb/run-20230409_013805-1itajhp6/run-1itajhp6.wandb
+2023-04-09 01:38:15,920 INFO    SenderThread:1173352 [sender.py:finish():1331] shutting down sender
+2023-04-09 01:38:15,921 INFO    SenderThread:1173352 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-09 01:38:15,921 INFO    SenderThread:1173352 [file_pusher.py:join():173] waiting for file pusher
+2023-04-09 01:38:15,926 INFO    MainThread:1173352 [internal.py:handle_exit():78] Internal process exited

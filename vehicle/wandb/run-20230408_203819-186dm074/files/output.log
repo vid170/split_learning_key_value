@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 213, in <module>
+    net_glob=LinearModel(input_shape=input_shape)
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/model.py", line 7, in __init__
+    w_init=torch.zeros((1,))
+NameError: name 'torch' is not defined
+Traceback (most recent call last):
+  File "main.py", line 213, in <module>
+    net_glob=LinearModel(input_shape=input_shape)
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/model.py", line 7, in __init__
+    w_init=torch.zeros((1,))
+NameError: name 'torch' is not defined

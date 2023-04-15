@@ -1,0 +1,11 @@
+LinearModel(
+  (linear): Linear(in_features=1804, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "main.py", line 229, in <module>
+    for idx in range(0,num_users):
+NameError: name 'num_users' is not defined
+Traceback (most recent call last):
+  File "main.py", line 229, in <module>
+    for idx in range(0,num_users):
+NameError: name 'num_users' is not defined

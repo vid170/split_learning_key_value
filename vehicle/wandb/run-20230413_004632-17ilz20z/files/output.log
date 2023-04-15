@@ -1,0 +1,59 @@
+LinearModel(
+  (linear): Linear(in_features=100, out_features=1, bias=True)
+)
+[91m Client0 Train => Local Epoch: 0 	Acc: 83.333 	Loss: 0.9396
+[92m Client0 Val => 	Loss: 1.0543	Acc: 33.333
+[91m Client1 Train => Local Epoch: 0 	Acc: 90.909 	Loss: 0.9493
+[92m Client1 Val => 	Loss: 1.0352	Acc: 31.429
+[91m Client2 Train => Local Epoch: 0 	Acc: 64.103 	Loss: 0.9677
+[92m Client2 Val => 	Loss: 1.0172	Acc: 47.222
+[91m Client3 Train => Local Epoch: 0 	Acc: 64.865 	Loss: 0.9607
+[92m Client3 Val => 	Loss: 1.0006	Acc: 59.091
+[91m Client4 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8713
+[92m Client4 Val => 	Loss: 1.0123	Acc: 53.333
+[91m Client5 Train => Local Epoch: 0 	Acc: 100.000 	Loss: 0.8730
+[92m Client5 Val => 	Loss: 1.0066	Acc: 68.085
+[91m Client6 Train => Local Epoch: 0 	Acc: 80.000 	Loss: 0.9350
+[92m Client6 Val => 	Loss: 1.0134	Acc: 54.098
+[91m Client7 Train => Local Epoch: 0 	Acc: 67.213 	Loss: 0.9552
+[92m Client7 Val => 	Loss: 1.0302	Acc: 40.000
+[91m Client8 Train => Local Epoch: 0 	Acc: 69.643 	Loss: 0.9419
+[92m Client8 Val => 	Loss: 1.0233	Acc: 47.727
+[91m Client9 Train => Local Epoch: 0 	Acc: 72.973 	Loss: 0.9553
+[92m Client9 Val => 	Loss: 1.0137	Acc: 51.562
+[91m Client10 Train => Local Epoch: 0 	Acc: 66.667 	Loss: 0.9375
+[92m Client10 Val => 	Loss: 1.0450	Acc: 26.667
+[91m Client11 Train => Local Epoch: 0 	Acc: 60.000 	Loss: 0.9511
+[92m Client11 Val => 	Loss: 1.0116	Acc: 53.333
+[91m Client12 Train => Local Epoch: 0 	Acc: 30.435 	Loss: 1.0283
+[92m Client12 Val => 	Loss: 1.0435	Acc: 34.211
+[91m Client13 Train => Local Epoch: 0 	Acc: 50.000 	Loss: 0.9935
+[92m Client13 Val => 	Loss: 1.0475	Acc: 30.000
+[91m Client14 Train => Local Epoch: 0 	Acc: 92.308 	Loss: 0.9590
+[92m Client14 Val => 	Loss: 1.0552	Acc: 23.077
+[91m Client15 Train => Local Epoch: 0 	Acc: 84.746 	Loss: 0.9469
+[92m Client15 Val => 	Loss: 1.0302	Acc: 37.500
+[91m Client16 Train => Local Epoch: 0 	Acc: 89.474 	Loss: 0.9437
+[92m Client16 Val => 	Loss: 1.0216	Acc: 49.091
+[91m Client17 Train => Local Epoch: 0 	Acc: 82.143 	Loss: 0.9377
+[92m Client17 Val => 	Loss: 1.0332	Acc: 41.026
+[91m Client18 Train => Local Epoch: 0 	Acc: 76.562 	Loss: 0.9482
+[92m Client18 Val => 	Loss: 1.0310	Acc: 41.667
+[91m Client19 Train => Local Epoch: 0 	Acc: 83.929 	Loss: 0.9393
+[92m Client19 Val => 	Loss: 1.0151	Acc: 53.333
+[91m Client20 Train => Local Epoch: 0 	Acc: 97.368 	Loss: 0.9240
+[92m Client20 Val => 	Loss: 1.0310	Acc: 43.636
+[91m Client21 Train => Local Epoch: 0 	Acc: 79.167 	Loss: 0.9519
+[92m Client21 Val => 	Loss: 1.0215	Acc: 54.167
+[91m Client22 Train => Local Epoch: 0 	Acc: 88.333 	Loss: 0.9566
+[92m Client22 Val => 	Loss: 1.0108	Acc: 56.522
+[92m------------------------------------------------
+[92m------ Federation process at Server-Side -------
+[92m------------------------------------------------
+[92mMax Accuracy:  47.2059982633492
+[92m------------------- SERVER ----------------------------------------------
+[92mTrain: Round   0, Avg Accuracy 71.091 | Avg Loss 0.966
+[92mVal:  Round   0, Avg Accuracy 47.206 |  Avg Loss 1.023
+[92mTraining and Evaluation completed!
+[92mTotal time taken is 0.013901027043660481 mins
+[92mMax validation accuracy of unique client is:  55.50753529866537

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 202, in <module>
+    config.dataset = args.dataset
+AttributeError: 'Namespace' object has no attribute 'dataset'
+Traceback (most recent call last):
+  File "main.py", line 202, in <module>
+    config.dataset = args.dataset
+AttributeError: 'Namespace' object has no attribute 'dataset'

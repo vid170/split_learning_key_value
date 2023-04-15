@@ -1,0 +1,31 @@
+*******
+100
+LinearModel(
+  (linear): Linear(in_features=100, out_features=1, bias=True)
+)
+torch.Size([100])
+torch.Size([])
+Traceback (most recent call last):
+  File "main.py", line 250, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 69, in train
+    loss = self.loss_func(fx, labels)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 1174, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/functional.py", line 3026, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: "nll_loss_forward_reduce_cuda_kernel_1d_index" not implemented for 'Double'
+Traceback (most recent call last):
+  File "main.py", line 250, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 69, in train
+    loss = self.loss_func(fx, labels)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 1174, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/functional.py", line 3026, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: "nll_loss_forward_reduce_cuda_kernel_1d_index" not implemented for 'Double'

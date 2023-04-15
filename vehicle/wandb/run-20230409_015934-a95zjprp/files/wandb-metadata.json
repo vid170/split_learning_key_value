@@ -1,0 +1,210 @@
+{
+    "os": "Linux-5.15.0-69-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-04-08T20:29:36.881110",
+    "startedAt": "2023-04-08T20:29:34.813874",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_uid",
+        "prarabdh-10",
+        "--wandb_project",
+        "pfsl"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "vehicle/main.py",
+    "git": {
+        "remote": "https://github.com/mnswdhw/priv_SLR.git",
+        "commit": "ef8732dd7d8a5a58a39c092da1d78746bbe7450d"
+    },
+    "email": "prarabdh.10@gmail.com",
+    "root": "/home/prarabdh/SplitLearning/Software_exp/priv_SLR",
+    "host": "vishwesh-SS400TA-55",
+    "username": "prarabdh",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1024.7451250000001,
+        "min": 1000.0,
+        "max": 3900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1204.46,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1121.809,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1272.877,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.018,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1029.791,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1068.317,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1258.905,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1001.286,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1031.173,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.63,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1006.459,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.029,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.039,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1406.149,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1833.416,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1210.355,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1225.041,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1123.229,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1090.083,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.015,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1023.497,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1041.662,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1391.172,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1160.14,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.195,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1003.201,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1087.297,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.798,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.294,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.666,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1000.47,
+            "min": 1000.0,
+            "max": 3900.0
+        },
+        {
+            "current": 1015.725,
+            "min": 1000.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "total": 915.3232879638672,
+        "used": 838.9198226928711
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 62.464447021484375
+    }
+}

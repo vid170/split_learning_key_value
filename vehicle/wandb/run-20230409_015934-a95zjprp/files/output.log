@@ -1,0 +1,35 @@
+*******
+100
+LinearModel(
+  (linear): Linear(in_features=100, out_features=1, bias=True)
+)
+torch.Size([100])
+torch.Size([])
+Traceback (most recent call last):
+  File "main.py", line 250, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 66, in train
+    fx = net(images)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/model.py", line 15, in forward
+    x=self.linear(x)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: expected scalar type Double but found Float
+Traceback (most recent call last):
+  File "main.py", line 250, in <module>
+    w, loss_train, acc_train = local.train(net = copy.deepcopy(net_glob).to(device))
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/utils.py", line 66, in train
+    fx = net(images)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/prarabdh/SplitLearning/Software_exp/priv_SLR/vehicle/model.py", line 15, in forward
+    x=self.linear(x)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/prarabdh/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: expected scalar type Double but found Float

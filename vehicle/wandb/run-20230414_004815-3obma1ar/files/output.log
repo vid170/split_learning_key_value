@@ -1,0 +1,15 @@
+LinearModel(
+  (linear): Linear(in_features=100, out_features=1, bias=True)
+)
+Traceback (most recent call last):
+  File "main.py", line 373, in <module>
+    w,loss_train,acc_train= local.train(net=copy.deepcopy(net_glob).to(device))
+  File "main.py", line 218, in train
+    preds=torch.where(fx>0, torch.tensor(1.), torch.tensor(-1))
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+Traceback (most recent call last):
+  File "main.py", line 373, in <module>
+    w,loss_train,acc_train= local.train(net=copy.deepcopy(net_glob).to(device))
+  File "main.py", line 218, in train
+    preds=torch.where(fx>0, torch.tensor(1.), torch.tensor(-1))
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
