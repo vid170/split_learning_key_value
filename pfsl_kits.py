@@ -7,7 +7,7 @@ import sys
 import threading
 import time
 import torch
-from nnunet.training.loss_functions.dice_loss import DC_and_CE_loss
+from models.nnUNet.nnunet.training.loss_functions.dice_loss import DC_and_CE_loss
 from math import ceil
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
@@ -35,9 +35,10 @@ import os
 import sys
 sys.path.append(os.path.join(os.getcwd(), ".."))
 from FLamby.flamby.datasets.fed_kits19 import FedKits19
-import nnunet 
-from nnunet.network_architecture.generic_UNet import ConvDropoutNormNonlin, Generic_UNet
-from nnunet.network_architecture.initialization import InitWeights_He
+
+
+from models.nnUNet.nnunet.network_architecture.generic_UNet import ConvDropoutNormNonlin, Generic_UNet
+from models.nnUNet.nnunet.network_architecture.initialization import InitWeights_He
 from torch import nn
 from models import nnunet_final
 

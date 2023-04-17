@@ -11,7 +11,7 @@ import pickle
 import queue
 import struct
 import numpy as np
-from nnunet.training.loss_functions.dice_loss import DC_and_CE_loss
+from models.nnUNet.nnunet.training.loss_functions.dice_loss import DC_and_CE_loss
 
 
 class BaselineLoss(DC_and_CE_loss):
